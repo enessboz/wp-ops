@@ -153,7 +153,8 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - [x] **Rakip analizi:** `docs/septic-competitor-analysis.md` (SERP arketipleri, sorgu bazlı gözlemler, konumlanma). Hacim/zorluk verisi yok, Search Console ve DataForSEO ile doğrulanacak.
 - [x] **İçerik brief'leri:** `docs/briefs/` altında 9 brief (kış bakımı, sistem türleri hub, mound, perc test, riser, firma seçimi, filtre, malzemeler, eyalet dizini).
 - [x] **Backlink planı:** `docs/septic-backlink-plan.md` (kurallar, linkable asset önerileri, hedef türleri, e-posta taslakları). **E-posta gönderilmedi.**
-- [ ] **Brief 1 ve 2'yi taslak yazıya çevir** (`septic-system-winter-care`, `types-of-septic-systems`), WordPress'te draft olarak, sen onaylayana kadar yayınlanmaz.
+- [x] **Brief 1 yazıldı ve yayınlandı** (18 Eki): `septic-system-winter-care` (yazı 511), yalnızca MPCA (23 Ocak 2026) ve EPA metinlerine dayanıyor, 4 yazıdan link verildi.
+- [ ] **Brief 2:** `types-of-septic-systems` (EPA types sayfasını `curl` ile okuyup yaz).
 - [ ] **Eyalet dizini pilotu** (5 eyalet, resmi kurum sayfaları elle doğrulanarak).
 - [ ] **Alıcı kontrol listesi PDF'i.**
 - [ ] **Search Console bağlanınca:** backlink profilini ölç, brief önceliklerini veriye göre yeniden sırala.

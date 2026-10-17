@@ -37,7 +37,7 @@ Kullanıcı (18 Ekim) **tüm kararları ve işleri bana devretti**. Birleştirme
 - Septic bilgisi güvenlikle ilgilidir: yalnızca resmi kaynaklara (EPA, üniversite uzantı servisleri, eyalet sağlık/çevre kurumları) dayan, kaynak linklerini ekle, bilmediğin sayıyı yazma. Fiyat aralıklarında "yaklaşık/değişir" dili kullan ve kaynağını belirt.
 - Her yazıda ayırt edici bir öğe (kontrol listesi, karar ağacı, örnek hesap, tablo) ve mevcut yazılarla iç linkler olsun. Mevcut yazıların biçimini (H2 yapısı, SSS, kaynaklar, `sb-note` Related kutusu) izle.
 - Görsel: özgün olmayan görsel kullanma. Görseli olmayan taslak olarak bırak ve belirt.
-- **Durum: taslak.** Yayınlama izni kullanıcıdan gelene kadar her yeni yazı `draft` kalır. Kullanıcı "otomatik yayınla" derse bu bölümü güncelle.
+- **Yayın kuralı (18 Ekim, kullanıcı kararı bende):** Kaynak sayfalarını gerçekten okuyup (`curl` ile; WebFetch bu ortamda DNS çözemiyor) yalnızca okuduğun metne dayanan yazılar doğrulandıysa yayınlanır. Kaynağını okuyamadığın, rakam/iddiayı doğrulayamadığın yazı `draft` kalır. Yayından sonra ilgili 3-4 yazıdan iç link ver.
 - Hız: haftada en fazla 2 yeni taslak.
 
 ## Sabah özeti (her sabah)

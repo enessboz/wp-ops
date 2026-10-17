@@ -30,3 +30,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **301:** `/septic-tank-installation-cost/` → `/septic-system-cost/` (Rank Math redirection id 1, `updateRedirection` hasRedirect=true). `curl` ile doğrulandı: 301. Yazı 160 **draft**'a alındı (silinmedi), yönlendirme draft iken de çalışıyor.
 - **İç linkler** `septic-tank-installation-cost` → `septic-system-cost`: yazı 406, 196, 265, 250, 204, 161.
 - **Zamanlanmış görevler** kuruldu: sabah özeti (07:56 İstanbul) ve günlük çalışma (12:59 İstanbul), ikisi de bu oturuma bağlı.
+
+## 2026-10-18 (yeni yazı)
+- **Yeni yazı yayınlandı:** yazı 511 `septic-system-winter-care` (kategori Maintenance). Kaynaklar `curl` ile okundu: MPCA "Don't let your septic system freeze" (23 Ocak 2026) ve EPA "How to Care for Your Septic System". Rank Math: title 50, açıklama 152, odak anahtar kelime "septic system winter care". Görsel yok (özgün görsel gerekli).
+- İç linkler eklendi (Related kutusu): yazı 173, 214, 209, 59 → `/septic-system-winter-care/`.
