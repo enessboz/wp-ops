@@ -11,3 +11,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - `/blog/` (sayfa 26): title "Septic System Guides for Homeowners | SepticBeacon" → "Septic Guides & Articles for Homeowners | SepticBeacon", açıklama yeniden yazıldı (ana sayfa ile çakışma giderildi).
 - İç linkler: yazı 173, 224, 104, 159, 209, 93, 234, 160, 200, 257, 161, 68 mevcut "Related" kutusuna; 248, 241, 198, 59, 229, 68, 259, 196, 214, 163, 94, 162 yeni "Related" kutusu eklendi. Sonuç: tüm yazılar ≥3 gelen iç link, yetim yok.
 - Denendi ve başarısız: Rank Math `updateSettings` (sitemap, general) ve `toolsAction` (sitemap önbelleği). Ayarlar değişmedi (dışa aktarma ile doğrulandı).
+
+## 2026-10-18 (Faz 5)
+- Eklendi: `docs/septic-competitor-analysis.md`, `docs/briefs/` (9 brief), `docs/septic-backlink-plan.md`. Siteye yazma yok, e-posta gönderilmedi.

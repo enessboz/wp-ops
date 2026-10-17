@@ -147,3 +147,13 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - Her yazma işleminden önce onay. Önce önizleme/diff, sonra uygulama.
 - Rank Math / WordPress değişikliklerinde önceki değer kaydedilir (geri alınabilir).
 - Toplu değişiklikler küçük gruplar halinde yapılır, her grup sonrası kontrol edilir.
+
+
+## 7. Faz 5: Büyüme araştırması (18 Ekim)
+- [x] **Rakip analizi:** `docs/septic-competitor-analysis.md` (SERP arketipleri, sorgu bazlı gözlemler, konumlanma). Hacim/zorluk verisi yok, Search Console ve DataForSEO ile doğrulanacak.
+- [x] **İçerik brief'leri:** `docs/briefs/` altında 9 brief (kış bakımı, sistem türleri hub, mound, perc test, riser, firma seçimi, filtre, malzemeler, eyalet dizini).
+- [x] **Backlink planı:** `docs/septic-backlink-plan.md` (kurallar, linkable asset önerileri, hedef türleri, e-posta taslakları). **E-posta gönderilmedi.**
+- [ ] **Brief 1 ve 2'yi taslak yazıya çevir** (`septic-system-winter-care`, `types-of-septic-systems`), WordPress'te draft olarak, sen onaylayana kadar yayınlanmaz.
+- [ ] **Eyalet dizini pilotu** (5 eyalet, resmi kurum sayfaları elle doğrulanarak).
+- [ ] **Alıcı kontrol listesi PDF'i.**
+- [ ] **Search Console bağlanınca:** backlink profilini ölç, brief önceliklerini veriye göre yeniden sırala.
