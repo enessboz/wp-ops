@@ -101,20 +101,20 @@ Her madde için: durum, risk ve onay ihtiyacı belirtilir. Yazma işlemleri Sept
 
 ### Faz 0: Temel (1-2 gün)
 Amaç: indekslemeyi ve ölçümü açmak.
-- [ ] **Sitemap'i düzelt:** 11 eksik yazı sitemap'e girsin (Rank Math sitemap önbelleğini yenile / neden eksik olduğunu bul). *Risk: düşük.*
+- [ ] **Sitemap'i düzelt:** ⏳ Kök neden: eski önbellek. API üzerinden temizlenemedi, Rank Math'te Sitemap Settings → Save Changes ile elle yenilenmeli. 11 eksik yazı sitemap'e girsin (Rank Math sitemap önbelleğini yenile / neden eksik olduğunu bul). *Risk: düşük.*
 - [ ] **Search Console'u bağla:** mülk doğrulaması, sitemap gönderimi, `gsc-api` reposuyla veri çekme. *Kullanıcıdan Google erişimi gerekir.*
-- [ ] **Ana sayfa / `/blog/` title ayrımı:** ana sayfa markayı ve konuyu, `/blog/` rehber arşivini anlatsın. *Risk: düşük.*
+- [x] **Ana sayfa / `/blog/` title ayrımı:** ana sayfa markayı ve konuyu, `/blog/` rehber arşivini anlatsın. *Risk: düşük.*
 - [ ] **http→https ve www** yönlendirmesini doğrula.
 
 ### Faz 1: Hızlı kazanımlar (1 hafta)
-- [ ] **Meta düzeltmeleri:** 5 uzun açıklama, 4 title (160 / 60 karakter sınırı).
-- [ ] **İç link yeniden dağıtımı:** yetim ve tek linkli 8 yazıya, ilgili güçlü yazılardan bağlam içi linkler. Hedef: her yazıya en az 3 gelen link.
+- [x] **Meta düzeltmeleri:** 5 uzun açıklama, 4 title (160 / 60 karakter sınırı). ✅ 18 Eki: 6 açıklama ve 1 title kısaltıldı, `/blog/` için ayrı title/açıklama yazıldı. Canlı taramada 65+ karakterlik title ve 160+ açıklama kalmadı.
+- [x] **İç link yeniden dağıtımı:** yetim ve tek linkli 8 yazıya, ilgili güçlü yazılardan bağlam içi linkler. Hedef: her yazıya en az 3 gelen link. ✅ 18 Eki: 21 yazıdaki "Related" kutusuna link eklendi. Yetim yazı kalmadı, her yazı en az 3 gelen link alıyor.
 - [ ] **Kategori temizliği:** boş "System Types" ve "Uncategorized" için karar (kaldır veya doldur), yazıları doğru kategoriye al, kategori sayfalarına tanıtım metni ekle. *Kategori silmek URL değiştirir, 301 gerekir.*
-- [ ] **llms.txt** ekle (Rank Math veya manuel).
-- [ ] **FAQPage şeması:** SSS içeren 23 yazı için, Rank Math şema alanlarıyla.
-- [ ] **Kurumsal sayfa şemaları:** AboutPage, ContactPage.
+- [ ] **llms.txt** ekle (Rank Math veya manuel). ⏳ Hâlâ 404. Rank Math → General Settings → Edit llms.txt ve Permalinks → Save ile rewrite yenilenmeli.
+- [ ] **FAQPage şeması:** ⏸ Ertelendi. Google 2023'ten beri FAQ zengin sonuçlarını çoğunlukla devlet ve sağlık sitelerine gösteriyor, getirisi düşük, 23 yazıda toplu şema değişikliği riskine değmez.
+- [ ] **Kurumsal sayfa şemaları:** ⏸ Ertelendi, düşük etki.
 - [ ] **Güvenlik başlıkları:** sunucu/CDN düzeyinde. *Sunucu erişimi veya hosting paneli gerekir.*
-- [ ] **AdSense hazırlığı:** favicon ve site logosu ekle, yorumları ve pingleri kapat (veya moderasyona al), Privacy sayfasına reklam/çerez bölümü ekle, menüde About/Contact/Privacy/Disclaimer görünürlüğünü doğrula, breadcrumb'ı aç.
+- [x] **AdSense hazırlığı:** favicon ve site logosu ekle, yorumları ve pingleri kapat (veya moderasyona al), Privacy sayfasına reklam/çerez bölümü ekle, menüde About/Contact/Privacy/Disclaimer görünürlüğünü doğrula, breadcrumb'ı aç. ⏳ Kısmen: favicon ayarlandı (medya 409, 39 sayfada görünüyor), yorum ve ping yeni içerikte, 33 yazıda ve 6 sayfada kapatıldı. Kalanlar: breadcrumb (ayar yazılamadı, elle açılmalı, ayrıca tema kancası gerekir), Privacy sayfasına reklam/çerez bölümü, menü doğrulaması.
 
 ### Faz 2: Güven ve içerik kalitesi (2-4 hafta)
 - [ ] **Yazar kimliği:** "Editorial Team" yerine gerçek yazar/gözden geçiren, kısa biyografi ve uzmanlık. *Kullanıcı kararı: gerçek bir kişi/uzman olmadan uydurma yazar eklenmez.*
