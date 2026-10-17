@@ -114,7 +114,7 @@ Amaç: indekslemeyi ve ölçümü açmak.
 - [ ] **FAQPage şeması:** ⏸ Ertelendi. Google 2023'ten beri FAQ zengin sonuçlarını çoğunlukla devlet ve sağlık sitelerine gösteriyor, getirisi düşük, 23 yazıda toplu şema değişikliği riskine değmez.
 - [ ] **Kurumsal sayfa şemaları:** ⏸ Ertelendi, düşük etki.
 - [ ] **Güvenlik başlıkları:** sunucu/CDN düzeyinde. *Sunucu erişimi veya hosting paneli gerekir.*
-- [x] **AdSense hazırlığı:** favicon ve site logosu ekle, yorumları ve pingleri kapat (veya moderasyona al), Privacy sayfasına reklam/çerez bölümü ekle, menüde About/Contact/Privacy/Disclaimer görünürlüğünü doğrula, breadcrumb'ı aç. ⏳ Kısmen: favicon ayarlandı (medya 409, 39 sayfada görünüyor), yorum ve ping yeni içerikte, 33 yazıda ve 6 sayfada kapatıldı. Kalanlar: breadcrumb (ayar yazılamadı, elle açılmalı, ayrıca tema kancası gerekir), Privacy sayfasına reklam/çerez bölümü, menü doğrulaması.
+- [x] **AdSense hazırlığı:** favicon ve site logosu ekle, yorumları ve pingleri kapat (veya moderasyona al), Privacy sayfasına reklam/çerez bölümü ekle, menüde About/Contact/Privacy/Disclaimer görünürlüğünü doğrula, breadcrumb'ı aç. ⏳ Kısmen: favicon ayarlandı (medya 409, 39 sayfada görünüyor), yorum ve ping yeni içerikte, 33 yazıda ve 6 sayfada kapatıldı. Doğrulananlar (18 Eki): Privacy sayfasında reklam/çerez bölümü zaten var, alt bilgide ve menüde About/Contact/Privacy/Disclaimer var, iletişim formu (`sb-contact-form`) var. Kalan: breadcrumb (ayar yazılamadı, elle açılmalı, tema kancası gerekir), iletişim formunun gönderim testi.
 
 ### Faz 2: Güven ve içerik kalitesi (2-4 hafta)
 - [ ] **Yazar kimliği:** "Editorial Team" yerine gerçek yazar/gözden geçiren, kısa biyografi ve uzmanlık. *Kullanıcı kararı: gerçek bir kişi/uzman olmadan uydurma yazar eklenmez.*
