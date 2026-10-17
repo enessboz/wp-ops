@@ -4,6 +4,34 @@ Tarih: 17 Ekim 2026 · Site: https://septicbeacon.com · Kapsam: DataForSEO ve S
 
 > Bu belgedeki "fırsat" ve "boşluk" maddeleri hipotezdir. Arama hacmi ve sıralama verisi olmadan doğrulanmadı. Faz 1 sonunda Search Console verisiyle test edilecek.
 
+## 0. Ana hedef: AdSense ile gelir
+
+**Hedef başvuru tarihi: 15 Aralık 2026** (≈8 hafta). Başvuru, aşağıdaki kapı kriterlerinin tamamı sağlanırsa yapılır. Sağlanmazsa tarih bir hafta kaydırılır ve eksik madde kapatılır. Başvuruyu erken yapıp reddedilmek zaman kaybettirir.
+
+> Aşağıdaki sayısal eşikler **bizim kendi hedeflerimiz**. Google AdSense için sabit bir trafik veya yazı sayısı şartı yayınlamıyor. Onay; içerik kalitesi, politika uyumu, gerekli sayfalar ve kullanıcı deneyimi üzerinden veriliyor.
+
+### Başvuru kapısı (hepsi ✅ olmalı)
+
+| # | Kriter | Hedef | Şu an |
+|---|---|---|---|
+| 1 | Yayınlanmış özgün yazı | ≥ 45 (her biri ≥ 1.500 kelime) | 33 |
+| 2 | Search Console'da indekslenen sayfa | gönderilen tüm URL'lerin ≥ %95'i | bilinmiyor |
+| 3 | Organik görünürlük | son 28 günde ≥ 3.000 gösterim ve ≥ 150 tıklama, artış eğiliminde | bilinmiyor |
+| 4 | Gerekli sayfalar | About, Contact, Privacy (reklam/çerez bölümü dahil), Disclaimer, gezinme menüsünde | var (Privacy'ye reklam bölümü eklenecek) |
+| 5 | Kimlik ve güven | Gerçek/tanımlı yazar sayfası, kaynak linkleri, favicon ve logo | yok (favicon ayarlı değil) |
+| 6 | Çerez onayı (CMP) | EEA/UK/İsviçre için Google sertifikalı onay aracı | yok |
+| 7 | Teknik sağlık | 404/kırık link yok, sitemap tam, mobil uyumlu, HTTPS, Core Web Vitals "iyi" | sitemap eksik |
+| 8 | Politika temizliği | boş/ince sayfa yok, spam yorum yok, telif sorunu yok, "ince içerik" riski gözden geçirilmiş | gözden geçirilecek |
+
+### Kontrol noktaları
+- **7 Kasım:** Faz 0 ve Faz 1 bitti mi? Search Console verisi 3 haftalık oldu mu?
+- **1 Aralık:** Go/no-go ön değerlendirmesi. Eksik kriterler için 2 haftalık plan.
+- **15 Aralık:** Tüm kriterler tamam ise başvuru.
+- Başvurudan sonra: onay gelirse `ads.txt` yayınla, reklam yerleşimini kademeli aç. Red gelirse gerekçeyi oku, düzelt, **en az 2 hafta** sonra tekrar başvur.
+
+### AdSense için en büyük risk
+Site yeni ve içerik hızlı üretilmiş görünüyor (33 yazı ~1 ayda). Google "düşük değerli / ölçekli üretilmiş içerik" nedeniyle reddedebilir. Azaltmak için: gerçek yazar kimliği, özgün görseller veya diyagramlar, kaynaklı veriler, uzman gözden geçirme notu, her yazıda ayırt edici bir bilgi (örnek hesap, kontrol listesi, karar ağacı). Bu madde Faz 2'nin önceliğidir.
+
 ## 1. Mevcut durum
 
 | Konu | Durum |
@@ -34,6 +62,15 @@ Kategoriler: Costs & Inspections 12, Septic Basics 8, Maintenance 6, Problems & 
 8. **Kategori yapısı:** "System Types" ve "Uncategorized" boş, "Parts & Sizing" 1 yazı. Boş kategoriler ince/tekrar eden arşiv sayfası üretir. Yazılar yanlış kategoride olabilir (`septic-vs-sewer` ve `aerobic-septic-system` Septic Basics'te, "System Types" boş).
 9. **E-E-A-T:** Yazar kimliği yok. Sağlık/güvenlik/yasal/finansal konular (sigorta, garanti, finansman, güvenlik) uzman incelemesi ve kaynak gerektirir. Yazar listesinde "PUBL" adlı kullanıcı 14 yazının yazarı olarak görünüyor, görünen yazar adı doğrulanmalı.
 10. **Şema eksikleri:** About, Contact, Disclaimer, Privacy sayfalarında şema yok. SSS bölümü olan 23 yazıda FAQPage şeması bulunmuyor (şema türlerinde yok).
+
+### Faz 0'da keşfedilenler (17 Ekim)
+- **Sitemap kök nedeni:** Rank Math ayarlarında hariç tutulan yazı yok. Post sitemap'in en yeni `lastmod` değeri 7 Ekim, yani sitemap önbelleği ~7 Ekim'den beri yenilenmemiş. Eksik 11 yazının 8'i çöp kutusundan geri alınmış (`_wp_trash_meta_*` kalıntısı), 3'ü sonradan yayınlanmış. Yazıların kendisi indekslenebilir (robots ve canonical doğru).
+- **Google ve Bing site doğrulaması zaten yapılmış** (Rank Math'te doğrulama kodları var). Rank Math Analytics ve Instant Indexing modülleri açık.
+- **Favicon / site simgesi ayarlı değil** (`site_icon` boş).
+- **Yorumlar ve pingler açık** (spam riski, AdSense için temizlenmeli).
+- **Breadcrumb kapalı.** İç link ve şema için açılabilir.
+- **llms.txt:** Rank Math `llms_post_types` ayarı var ama `/llms.txt` 404 veriyor, rewrite kuralları yenilenmeli.
+- **Meta açıklaması uzun** olan örnek: `signs-of-drain-field-failure` (~190 karakter).
 
 ### Düşük
 11. 6 pasif plugin (SiteSEO, SiteSEO Pro, SpeedyCache x2, Akismet, Hello Dolly), 4 pasif tema, 5 bekleyen plugin güncellemesi.
@@ -77,10 +114,13 @@ Amaç: indekslemeyi ve ölçümü açmak.
 - [ ] **FAQPage şeması:** SSS içeren 23 yazı için, Rank Math şema alanlarıyla.
 - [ ] **Kurumsal sayfa şemaları:** AboutPage, ContactPage.
 - [ ] **Güvenlik başlıkları:** sunucu/CDN düzeyinde. *Sunucu erişimi veya hosting paneli gerekir.*
+- [ ] **AdSense hazırlığı:** favicon ve site logosu ekle, yorumları ve pingleri kapat (veya moderasyona al), Privacy sayfasına reklam/çerez bölümü ekle, menüde About/Contact/Privacy/Disclaimer görünürlüğünü doğrula, breadcrumb'ı aç.
 
 ### Faz 2: Güven ve içerik kalitesi (2-4 hafta)
 - [ ] **Yazar kimliği:** "Editorial Team" yerine gerçek yazar/gözden geçiren, kısa biyografi ve uzmanlık. *Kullanıcı kararı: gerçek bir kişi/uzman olmadan uydurma yazar eklenmez.*
 - [ ] **Kaynak ve inceleme notları:** sigorta, garanti, finansman, güvenlik konularında kaynak linkleri ve "son gözden geçirme" tarihi.
+- [ ] **Çerez onayı (CMP):** Google sertifikalı bir CMP kur (EEA/UK/İsviçre için zorunlu), AdSense'ten önce test et.
+- [ ] **Yazı sayısını 45'e çıkar** (haftada ~1,5 yazı), her yazıda ayırt edici öğe (örnek hesap, kontrol listesi, karar ağacı) ve özgün görsel.
 - [ ] **Ana sayfa ve kategori hub'ları** genişlet (konu haritası, en önemli rehberlere link).
 - [ ] **Bakım/temizlik:** pasif plugin ve temalar, PHP 8.3, bekleyen güncellemeler (önce yedek), bir MCP eklentisini kaldır.
 
