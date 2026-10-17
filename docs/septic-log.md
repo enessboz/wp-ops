@@ -14,3 +14,10 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-18 (Faz 5)
 - Eklendi: `docs/septic-competitor-analysis.md`, `docs/briefs/` (9 brief), `docs/septic-backlink-plan.md`. Siteye yazma yok, e-posta gönderilmedi.
+
+## 2026-10-18 (içerik denetimi)
+- Kanibalizasyon: yazı 159 (`septic-system-cost`) içinden çakışan bölümler kaldırılıp yönlendirmeye çevrildi: "Installation costs homeowners often overlook", "How to compare septic system quotes" + "Questions to ask before hiring an installer" + "How much contingency should you keep?", "Tank cost is only one part of the project" (tablo kaldırıldı), "New installation vs. septic replacement" (kısaltıldı). Quick answer yeniden yazıldı. İçerik uzunluğu 19.021 → 16.256 karakter. Geri alma: WordPress yazı revizyonları.
+- Title/meta: yazı 159 ("Septic System Cost by Type: Conventional, Mound & Aerobic"), 160 ("Septic Tank Installation Cost: New Install Quotes & Budget"), açıklamaları yeniden yazıldı.
+- Meta uzatma: yazı 224, 200 (title+desc), 257, 265, 93 (açıklama), 59, 103 (title).
+- Görseller: 43 `<img>` etiketine `class="wp-image-ID" width height` eklendi. Yazılar: 259 (3), 257 (2), 250 (2), 248 (3), 209 (2), 214 (2), 241 (2), 234 (3), 229 (3), 224 (3), 59 (3), 105 (1), 204 (2), 94 (3), 173 (1), 104 (2), 103 (2), 93 (2), 68 (2).
+- "Further reading" (EPA) eklendi: yazı 196, 209, 214, 241, 234, 229, 224, 204.

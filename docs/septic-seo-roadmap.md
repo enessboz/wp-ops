@@ -157,3 +157,13 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - [ ] **Eyalet dizini pilotu** (5 eyalet, resmi kurum sayfaları elle doğrulanarak).
 - [ ] **Alıcı kontrol listesi PDF'i.**
 - [ ] **Search Console bağlanınca:** backlink profilini ölç, brief önceliklerini veriye göre yeniden sırala.
+
+## 8. İçerik denetimi ve kanibalizasyon (18 Ekim)
+- [x] **İçerik denetimi:** `docs/septic-content-audit.md` (claude-seo kuralları: seo-page, seo-content, seo-cluster). 33 yazı + 6 sayfa.
+- [x] **Görsel boyutları ve srcset:** 43 görselde `wp-image-ID` ve `width/height` eklendi (19 yazı).
+- [x] **Kaynak bölümleri:** 8 yazıya doğrulanmış EPA "Further reading".
+- [x] **Kanibalizasyon aksiyonu:** `septic-system-cost` pillar, `septic-tank-installation-cost` spoke olarak ayrıştırıldı (benzerlik 0,72 → 0,64).
+- [ ] **KARAR BEKLİYOR:** `septic-tank-installation-cost` → `septic-system-cost` birleştirme ve 301 yönlendirme.
+- [ ] **KARAR BEKLİYOR:** Jetpack Image CDN (görsel sıkıştırma/WebP), gizlilik politikası güncellemesi gerekir.
+- [ ] **İç link yoğunluğunu dengele:** 10 yazıya bağlam içi link, maliyet kümesinde azalt.
+- [ ] **Satır içi görseli olmayan 14 yazı için özgün görsel/diyagram.**
