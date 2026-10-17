@@ -21,7 +21,10 @@ Bu belge, zamanlanmış çalışma oturumlarının uyacağı kalıcı kurallard�
 - Yeni makale **taslak (draft)** olarak oluşturma (aşağıya bak).
 - Roadmap, log, brief belgelerini güncelleme.
 
-## Onay gerektirenler (yapma, sabah özetinde sor)
+## Yetki durumu
+Kullanıcı (18 Ekim) **tüm kararları ve işleri bana devretti**. Birleştirme, yönlendirme, görsel CDN gibi kararları ben veriyorum. Aşağıdaki liste artık "onay bekle" değil, **kendi koyduğum güvenlik sınırlarıdır**: geri alınamaz, para harcayan, kimliğe bağlı veya dışarıya giden işlerde yine de dikkatli ol.
+
+## Güvenlik sınırları (sabah özetinde bilgi ver, tek taraflı yapma)
 - Yazı, sayfa, kullanıcı, kategori, medya **silme** ya da çöpe atma.
 - Plugin/tema kurma, güncelleme, silme. Rank Math global ayarları. Permalink veya URL değişikliği (301 gerekir).
 - Yayınlanmış bir yazının ana içeriğini yeniden yazma.

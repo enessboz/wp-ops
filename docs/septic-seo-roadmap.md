@@ -163,7 +163,7 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - [x] **Görsel boyutları ve srcset:** 43 görselde `wp-image-ID` ve `width/height` eklendi (19 yazı).
 - [x] **Kaynak bölümleri:** 8 yazıya doğrulanmış EPA "Further reading".
 - [x] **Kanibalizasyon aksiyonu:** `septic-system-cost` pillar, `septic-tank-installation-cost` spoke olarak ayrıştırıldı (benzerlik 0,72 → 0,64).
-- [ ] **KARAR BEKLİYOR:** `septic-tank-installation-cost` → `septic-system-cost` birleştirme ve 301 yönlendirme.
-- [ ] **KARAR BEKLİYOR:** Jetpack Image CDN (görsel sıkıştırma/WebP), gizlilik politikası güncellemesi gerekir.
+- [x] **Birleştirme ve 301** (18 Eki, karar bende): `septic-tank-installation-cost` içeriği `septic-system-cost` pillar'ına taşındı, 301 yönlendirme Rank Math ile kuruldu ve doğrulandı, eski yazı taslağa alındı, 6 yazıdaki iç link güncellendi.
+- [x] **Jetpack Image CDN açıldı** (18 Eki): görseller i0.wp.com üzerinden WebP olarak geliyor (örnek 273 KB → 60 KB). Gizlilik politikasına "Image delivery" bölümü eklendi.
 - [ ] **İç link yoğunluğunu dengele:** 10 yazıya bağlam içi link, maliyet kümesinde azalt.
 - [ ] **Satır içi görseli olmayan 14 yazı için özgün görsel/diyagram.**

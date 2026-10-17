@@ -21,3 +21,12 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - Meta uzatma: yazı 224, 200 (title+desc), 257, 265, 93 (açıklama), 59, 103 (title).
 - Görseller: 43 `<img>` etiketine `class="wp-image-ID" width height` eklendi. Yazılar: 259 (3), 257 (2), 250 (2), 248 (3), 209 (2), 214 (2), 241 (2), 234 (3), 229 (3), 224 (3), 59 (3), 105 (1), 204 (2), 94 (3), 173 (1), 104 (2), 103 (2), 93 (2), 68 (2).
 - "Further reading" (EPA) eklendi: yazı 196, 209, 214, 241, 234, 229, 224, 204.
+
+## 2026-10-18 (birleştirme, CDN)
+- **Jetpack Image CDN (photon)** etkinleştirildi (`/jetpack/v4/module/photon/active`). Doğrulama: görseller `i0.wp.com`'dan, 273.216 bayt JPEG → 60.496 bayt WebP.
+- **Gizlilik politikası** (sayfa 3): "Image delivery" bölümü eklendi (Automattic görsel CDN'i, IP/tarayıcı bilgisi işlenir).
+- **Rank Math Redirections modülü** açıldı (`/rankmath/v1/saveModule` redirections=on). Not: modül listesinde yoktu, bu yolla açıldı.
+- **Birleştirme:** yazı 160 (`septic-tank-installation-cost`) benzersiz bölümleri yazı 159'a (`septic-system-cost`) taşındı: hidden costs, quote comparison table, questions to ask installer, low quote warning, budget above quote, before signing. Quick answer/giriş notu ve FAQ güncellendi. İç link çakışmaları temizlendi. Yazı 159 title: "Septic System Cost & Installation: Prices by Type (2026)", odak anahtar kelime: "septic system cost,septic tank installation cost". İçerik 16.256 → 19.259 karakter.
+- **301:** `/septic-tank-installation-cost/` → `/septic-system-cost/` (Rank Math redirection id 1, `updateRedirection` hasRedirect=true). `curl` ile doğrulandı: 301. Yazı 160 **draft**'a alındı (silinmedi), yönlendirme draft iken de çalışıyor.
+- **İç linkler** `septic-tank-installation-cost` → `septic-system-cost`: yazı 406, 196, 265, 250, 204, 161.
+- **Zamanlanmış görevler** kuruldu: sabah özeti (07:56 İstanbul) ve günlük çalışma (12:59 İstanbul), ikisi de bu oturuma bağlı.
