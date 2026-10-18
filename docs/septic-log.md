@@ -34,3 +34,11 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-18 (yeni yazı)
 - **Yeni yazı yayınlandı:** yazı 511 `septic-system-winter-care` (kategori Maintenance). Kaynaklar `curl` ile okundu: MPCA "Don't let your septic system freeze" (23 Ocak 2026) ve EPA "How to Care for Your Septic System". Rank Math: title 50, açıklama 152, odak anahtar kelime "septic system winter care". Görsel yok (özgün görsel gerekli).
 - İç linkler eklendi (Related kutusu): yazı 173, 214, 209, 59 → `/septic-system-winter-care/`.
+
+## 2026-10-18 (editör kimliği, sitemap, iletişim formu)
+- **Sayfa 518 `/editorial-policy/` yayınlandı** (Rank Math title/açıklama ayarlandı). Yayın anında `page-sitemap.xml`'e girdiği doğrulandı (6 URL).
+- **Yazar tekilleştirme:** yazı 196, 259, 257, 250, 248, 209, 214, 241, 234, 229, 224, 198, 200, 204 `author` 3 (PUBL) → 1 (SepticBeacon Editorial Team).
+- **İmza satırı** (`<p class="sb-byline">By SepticBeacon Editorial Team · How we create our guides</p>`) 33 yazının başına eklendi (511 dahil). Canlıda doğrulandı.
+- **Jetpack Forms modülü** etkinleştirildi (`contact-form`). **Sayfa 23 (contact)** içeriğine Jetpack form + `info@septicbeacon.com` eklendi, ancak tema şablonu içeriği göstermediği için canlıda görünmüyor (etkisiz). Eski form (`sb_contact_submit`) tema kodunda, bu yüzden düzeltilemedi.
+- **Bulgu:** contact/privacy/about/disclaimer sayfaları tema şablonuyla çiziliyor. Sayfa 3 (privacy) "Image delivery" eklemem canlıda görünmüyor.
+- **Docs:** `docs/security-headers.md` (hosting için `.htaccess` kodu), `scripts/seo/` (denetim betikleri).

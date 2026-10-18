@@ -168,3 +168,27 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - [x] **Jetpack Image CDN açıldı** (18 Eki): görseller i0.wp.com üzerinden WebP olarak geliyor (örnek 273 KB → 60 KB). Gizlilik politikasına "Image delivery" bölümü eklendi.
 - [ ] **İç link yoğunluğunu dengele:** 10 yazıya bağlam içi link, maliyet kümesinde azalt.
 - [ ] **Satır içi görseli olmayan 14 yazı için özgün görsel/diyagram.**
+
+
+## 9. Faz 6: Veri odaklı büyüme programı (kullanıcı talebi, 18 Ekim)
+Önkoşullar: DataForSEO hesabı (ortam değişkenleri `DATAFORSEO_LOGIN`, `DATAFORSEO_PASSWORD`), Pexels anahtarı (`PEXELS_API_KEY`). Anahtarlar sohbete yazılmaz, bulut ortamı ayarlarından eklenir. Yeni oturum gerekir.
+
+- [ ] **6.1 DataForSEO'yu bağla** (resmi `dataforseo-mcp-server` v3 veya CLI modu, claude-seo `seo-dataforseo` skill'i, maliyet koruması `dataforseo_costs.py`). *Bekleyen: anahtarlar.*
+- [ ] **6.2 Düşük kaliteli / düşük tıklama ihtimalli / kanibalize içerik tespiti, sil veya birleştir (301 ile).** Kullanıcı silme ve birleştirme yetkisi verdi. Veri (Search Console + DataForSEO) gelince karar ver, kararları günlüğe yaz.
+- [ ] **6.3 Genel teknik tarama ve şema (kusursuz):** tüm iç linkler (kırık), yönlendirme zincirleri, robots, sitemap geçerliliği, canonical, başlık/H1, görseller, güvenlik başlıkları, JSON-LD doğrulaması (Organization, WebSite, BreadcrumbList, Article/BlogPosting, AboutPage, ContactPage). claude-seo `seo-technical` ve `seo-schema` kuralları.
+- [ ] **6.4 Site hızı:** PageSpeed ölçümü, görsel (CDN yapıldı), yazı tipleri, render-engelleyici, önbellek. Tema/sunucu müdahalesi için araç sınırı var (aşağıya bak).
+- [ ] **6.5 İlk veri kaydı (baseline)** Google Drive'da Sheet: "Neredeydik, nereye geldik" (başlangıç ve şimdiki metrikler, yapılan değişiklikler).
+- [ ] **6.6 Rakip analizi** (Sheet): trafik, en görünür anahtar kelimeler, en çok tıklanan sayfalar, backlink sayısı. Ayrı sekme: en önemli backlinkler (dofollow + düşük spam skoru + yüksek domain rank; nofollow olanlar ayrıca işaretli). Skill: claude-seo `seo-dataforseo`, `seo-backlinks`, `seo-competitor-pages`. Eksik kalırsa kendi skill'imiz yazılacak.
+- [ ] **6.7 Anahtar kelime araştırması** (Sheet): hacim, zorluk, **CPC** (AdSense geliri için), boş alanlara doğrudan sıralama hedefi.
+- [ ] **6.8 Anahtar kelime ve içerik boşluğu (gap)** rakiplere göre.
+- [ ] **6.9 İçerik planı**, gap'lere dayalı.
+- [ ] **6.10 Mevcut içerik analiz skill'i entegrasyonu:** claude-seo `seo-content` + `seo-page` + `seo-cluster` repoya vendor edilecek (`.claude/skills/`), eksik alanlar düzenlenecek.
+- [ ] **6.11 Görsel altyapısı (yeni içerikten ÖNCE):** Pexels API ile görsel çekme (alt metin, fotoğrafçı kredisi, WebP, medya kitaplığına yükleme) + özgün diyagramlar (SVG/PNG, kendi ürettiğimiz). *Bekleyen: Pexels anahtarı.*
+
+## 10. 18 Ekim kararları ve bulguları
+- [x] **Editör kimliği (karar bende):** Gerçek yazar adı kullanılmıyor. "SepticBeacon Editorial Team" imzası + **Editorial Policy** sayfası (`/editorial-policy/`: kaynak yöntemi, yapay zekâ destekli taslak açıklaması, "uzman değiliz" beyanı, düzeltme e-postası, reklamdan bağımsızlık). 33 yazıya imza satırı ve politika linki eklendi, yazar alanı tekilleştirildi (PUBL → Editorial Team). Uydurma uzman yok. AdSense'te yazar adı zorunlu değil, şeffaflık ve kalite önemli.
+- [x] **Sitemap** dinamik çalışıyor: yeni sayfa yayınlanınca `page-sitemap.xml` anında güncellendi. Rank Math kalıyor.
+- [x] **llms.txt** açık, **breadcrumb** kullanıcı tarafından açıldı.
+- [ ] **İletişim formu hatası ("We couldn't send that message")**: form tema kodunda (`generatepress-wpvibe-backup`, `sb_contact_submit`). Sayfalar (contact, privacy, about, disclaimer) tema şablonundan sabit metinle çiziliyor, WordPress sayfa içeriğini kullanmıyor. Yaptığım düzenlemeler canlıda görünmüyor. **Çözüm için tema dosyalarına erişim gerekiyor** (Easy MCP AI ayarlarında "privileged" araçları açmak, ya da tema kodunu düzenleyebilmek). Alıcı adresi `info@septicbeacon.com` olmalı.
+- [ ] **Gizlilik politikası, Jetpack Image CDN bildirimi:** sayfa içeriğine ekledim ama şablon göstermiyor. Aynı tema erişimi gerekli.
+- [ ] **Güvenlik başlıkları:** `docs/security-headers.md` içindeki kod `.htaccess`'e eklenecek (hosting).
