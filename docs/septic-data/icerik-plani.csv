@@ -1,0 +1,13 @@
+#,Başlık,Hedef kelime,Hacim,CPC $,Zorluk,Tür,Not,Risk / kural
+1,Types of septic systems (hub),septic system types,2400,4.24,ölçülmedi,"Yeni, brief 2","EPA types sayfasını curl ile oku; mound, aerobik, conventional, alternatif sistem iç linkleri",Kaynaklı; EPA metnine dayan
+2,Cesspool vs septic tank,cesspool vs septic tank,1600,7.22,ölçülmedi,Yeni,Karşılaştırma tablosu + hangisi yasal/uygun karar ağacı; resmi kaynak şart,"Kaynak oku, rakam yazma"
+3,Septic tank riser and lid guide,septic tank riser,12100,1.08,ölçülmedi,"Yeni, brief 5","Güvenlik odaklı (kapak açma uyarısı). Hacim yüksek, CPC düşük",Pexels/özgün diyagram
+4,Concrete vs plastic septic tank,concrete septic tank,8100,4.23,ölçülmedi,"Yeni, brief 8","Malzeme karşılaştırma tablosu, kaynaklı","Üretici sayfası değil, üniversite/eyalet kaynağı"
+5,Septic-safe toilet paper,septic safe toilet paper,12100,1.02,ölçülmedi,Yeni (ayrı yazı) veya what-not-to-put bölümü,"Hacim 12.100, CPC 1,0: AdSense geliri düşük, trafik yüksek",Ürün önerisi yok; bağımsız test kaynağı olmadan marka yazma
+6,Septic distribution box (D-box),septic distribution box,3600,0.76,ölçülmedi,Yeni,Teknik ama ev sahibi dilinde; belirti ve kontrol listesi,EPA/eyalet kaynağı
+7,Septic tank baffles and effluent filter,septic tank baffle,1900,0.38,ölçülmedi,"Yeni, brief 7 ile birleştir",Filtre + baffle tek yazıda; kanibalizasyonu önlemek için tek konu,
+8,Above-ground and mound septic systems,above ground septic system,4400,2.16,ölçülmedi,"Yeni, brief 3","Mound, sand mound, at-grade ayrımı",EPA
+9,Septic system design and permitting basics,septic system design,4400,8.06,11,"Yeni (perc test ile ilişkili, brief 4)","Süreç adımları: site değerlendirme, perc, izin",Eyalete göre değişir uyarısı
+10,Septic holding tank,septic holding tank,1600,1.62,ölçülmedi,Yeni,Holding tank ve septik fark; kullanım yerleri,Kaynak oku
+11,How septic systems work (diyagram),septic system diagram,5400,6.19,15,Mevcut: how-septic-systems-work güçlendir,"Özgün SVG diyagram (200'e eklenen akış şemasının büyük versiyonu), ""septic system diagram"" ve ""what does a septic system look like"" kelimeleri",Diyagram çizimi özgün
+12,Finding your septic tank (location),septic tank location,4400,8.18,ölçülmedi,Mevcut: how-to-find-a-buried-septic-tank optimize,"""septic tank location"" 4.400 hacim, CPC 8,2: başlık ve H2'leri bu kelimeyle hizala","Yayınlanmış yazı: ana içerik yeniden yazılmaz, bölüm eklenir"

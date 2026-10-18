@@ -1,0 +1,16 @@
+Madde,Değer,Not
+Toplam DataForSEO harcaması ($),0.9103,dfs_ledger.json
+Başlangıç bakiyesi ($),1.62,user_data
+Hacim notu,Google Ads hacimleri yakın varyantları birleştirir; aynı hacim onlarca kelimede tekrarlanır. Tabloda küme temsilcisi gösterilir.,
+Zorluk notu,"Zorluk yalnızca en yüksek hacimli 700 kelime için ölçüldü. ""ölçülmedi"" = istenmedi veya veri yok.",
+Yerel/hizmet niyeti,"near me, service, installer gibi kelimeler dışlandı (587 küme içinde). Bilgi sitesi için dönüşüm yok.",
+Backlink nofollow,Rakip backlink listeleri yalnızca dofollow + spam skoru <30 ile çekildi (ücret tasarrufu). Bizim 9 backlink'te nofollow işaretli.,
+Lokasyon,"ABD (2840), İngilizce",
+Çağrı: dataforseo_labs/google/bulk_traffic_estimation/live,1 çağrı,0.0138
+Çağrı: dataforseo_labs/google/serp_competitors/live,1 çağrı,0.0168
+Çağrı: dataforseo_labs/google/ranked_keywords/live,8 çağrı,0.1856
+Çağrı: dataforseo_labs/google/domain_rank_overview/live,8 çağrı,0.097
+Çağrı: dataforseo_labs/google/keyword_suggestions/live,3 çağrı,0.18
+Çağrı: backlinks/summary/live,8 çağrı,0.1923
+Çağrı: backlinks/backlinks/live,5 çağrı,0.1288
+Çağrı: dataforseo_labs/google/bulk_keyword_difficulty/live,1 çağrı,0.096

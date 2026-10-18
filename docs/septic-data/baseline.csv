@@ -1,0 +1,19 @@
+Metrik,Başlangıç (17 Eki),Şimdi (18 Eki),Kaynak,Not
+Yayınlanan yazı,33,33,WordPress REST (x-wp-total),"160 taslağa alındı (301), 511 yayınlandı"
+Yayınlanan sayfa,6,7,WordPress,Editorial Policy eklendi
+Post sitemap URL sayısı,23,34,sitemap,"17 Ekim: 11 yazı eksikti, şimdi hepsi var"
+Satır içi görseli olan yazı,19,33,Canlı tarama,"14 yazıya Pexels görseli eklendi, 1 yazıda ayrıca SVG diyagram"
+Açık yorum / ping,açık,kapalı,WordPress,33 yazı + 6 sayfa
+Site simgesi,yok,var (medya 409),WordPress,
+BreadcrumbList şeması (yazı),0,33,Canlı JSON-LD,"İçerik içi JSON-LD ile eklendi; sayfalar (about, contact, privacy, disclaimer) tema şablonunda, eklenemedi"
+Tarama: HTTP 200 / toplam URL,32/32,45/45,curl,"Kırık iç link yok, yönlendirme zinciri yok, tekrar eden title yok"
+TTFB medyan (sn),,0.54,curl,"Maks 1,57. HTML medyan 73 KB, 3 küçük CSS, Brotli"
+Güvenlik başlıkları,yok,yok,curl -I,HSTS vb. yok. docs/security-headers.md kullanıcıda
+PageSpeed / Core Web Vitals,bilinmiyor,bilinmiyor,PSI API 429,Anahtarsız kota doldu; Search Console CrUX gerekir
+Google organik sıralanan anahtar kelime (ABD),bilinmiyor,47,DataForSEO Labs 18 Eki,Hepsi 21. sıra ve altı
+Tahmini organik trafik (aylık),bilinmiyor,0.5,DataForSEO Labs,Pratikte sıfır
+Backlink sayısı,bilinmiyor,11,DataForSEO Backlinks,"9 alan adı, hepsi düşük kaliteli/spam (spam skoru 5-70)"
+Referring domain,bilinmiyor,9,DataForSEO Backlinks,4 tanesi nofollow
+Search Console,bağlı değil,bağlı değil,-,AdSense kapısı 2 ve 3 bu veri olmadan ölçülemiyor
+AdSense kapısı 1: ≥45 yazı,33,33,,Eksik 12 yazı. Plan: İçerik Planı sekmesi
+AdSense kapısı 6: CMP,yok,yok,,Kullanıcı kuracak

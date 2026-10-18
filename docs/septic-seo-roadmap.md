@@ -167,23 +167,23 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - [x] **Birleştirme ve 301** (18 Eki, karar bende): `septic-tank-installation-cost` içeriği `septic-system-cost` pillar'ına taşındı, 301 yönlendirme Rank Math ile kuruldu ve doğrulandı, eski yazı taslağa alındı, 6 yazıdaki iç link güncellendi.
 - [x] **Jetpack Image CDN açıldı** (18 Eki): görseller i0.wp.com üzerinden WebP olarak geliyor (örnek 273 KB → 60 KB). Gizlilik politikasına "Image delivery" bölümü eklendi.
 - [ ] **İç link yoğunluğunu dengele:** 10 yazıya bağlam içi link, maliyet kümesinde azalt.
-- [ ] **Satır içi görseli olmayan 14 yazı için özgün görsel/diyagram.**
+- [x] **Satır içi görseli olmayan 14 yazı için özgün görsel/diyagram.**
 
 
 ## 9. Faz 6: Veri odaklı büyüme programı (kullanıcı talebi, 18 Ekim)
 Önkoşullar: DataForSEO hesabı (ortam değişkenleri `DATAFORSEO_LOGIN`, `DATAFORSEO_PASSWORD`), Pexels anahtarı (`PEXELS_API_KEY`). Anahtarlar sohbete yazılmaz, bulut ortamı ayarlarından eklenir. Yeni oturum gerekir.
 
-- [ ] **6.1 DataForSEO'yu bağla** (resmi `dataforseo-mcp-server` v3 veya CLI modu, claude-seo `seo-dataforseo` skill'i, maliyet koruması `dataforseo_costs.py`). *Bekleyen: anahtarlar.*
-- [ ] **6.2 Düşük kaliteli / düşük tıklama ihtimalli / kanibalize içerik tespiti, sil veya birleştir (301 ile).** Kullanıcı silme ve birleştirme yetkisi verdi. Veri (Search Console + DataForSEO) gelince karar ver, kararları günlüğe yaz.
-- [ ] **6.3 Genel teknik tarama ve şema (kusursuz):** tüm iç linkler (kırık), yönlendirme zincirleri, robots, sitemap geçerliliği, canonical, başlık/H1, görseller, güvenlik başlıkları, JSON-LD doğrulaması (Organization, WebSite, BreadcrumbList, Article/BlogPosting, AboutPage, ContactPage). claude-seo `seo-technical` ve `seo-schema` kuralları.
-- [ ] **6.4 Site hızı:** PageSpeed ölçümü, görsel (CDN yapıldı), yazı tipleri, render-engelleyici, önbellek. Tema/sunucu müdahalesi için araç sınırı var (aşağıya bak).
-- [ ] **6.5 İlk veri kaydı (baseline)** Google Drive'da Sheet: "Neredeydik, nereye geldik" (başlangıç ve şimdiki metrikler, yapılan değişiklikler).
-- [ ] **6.6 Rakip analizi** (Sheet): trafik, en görünür anahtar kelimeler, en çok tıklanan sayfalar, backlink sayısı. Ayrı sekme: en önemli backlinkler (dofollow + düşük spam skoru + yüksek domain rank; nofollow olanlar ayrıca işaretli). Skill: claude-seo `seo-dataforseo`, `seo-backlinks`, `seo-competitor-pages`. Eksik kalırsa kendi skill'imiz yazılacak.
-- [ ] **6.7 Anahtar kelime araştırması** (Sheet): hacim, zorluk, **CPC** (AdSense geliri için), boş alanlara doğrudan sıralama hedefi.
-- [ ] **6.8 Anahtar kelime ve içerik boşluğu (gap)** rakiplere göre.
-- [ ] **6.9 İçerik planı**, gap'lere dayalı.
-- [ ] **6.10 Mevcut içerik analiz skill'i entegrasyonu:** claude-seo `seo-content` + `seo-page` + `seo-cluster` repoya vendor edilecek (`.claude/skills/`), eksik alanlar düzenlenecek.
-- [ ] **6.11 Görsel altyapısı (yeni içerikten ÖNCE):** Pexels API ile görsel çekme (alt metin, fotoğrafçı kredisi, WebP, medya kitaplığına yükleme) + özgün diyagramlar (SVG/PNG, kendi ürettiğimiz). *Bekleyen: Pexels anahtarı.*
+- [x] **6.1 DataForSEO'yu bağla** ✅ 18 Eki: anahtarlar çalışıyor, `scripts/seo/dfs.py` maliyet korumalı yardımcı (tavan $1.35), bakiye ≈ $0.70. (resmi `dataforseo-mcp-server` v3 veya CLI modu, claude-seo `seo-dataforseo` skill'i, maliyet koruması `dataforseo_costs.py`). *Bekleyen: anahtarlar.*
+- [x] **6.2 Düşük kaliteli** ✅ 18 Eki: veriyle karar verildi, silme/birleştirme yok (bkz. log). / düşük tıklama ihtimalli / kanibalize içerik tespiti, sil veya birleştir (301 ile).** Kullanıcı silme ve birleştirme yetkisi verdi. Veri (Search Console + DataForSEO) gelince karar ver, kararları günlüğe yaz.
+- [x] **6.3 Genel teknik tarama** ✅ 18 Eki: temiz; BreadcrumbList 33 yazıya eklendi. Kalan: güvenlik başlıkları (hosting), 4 kurumsal sayfa şeması (tema). ve şema (kusursuz):** tüm iç linkler (kırık), yönlendirme zincirleri, robots, sitemap geçerliliği, canonical, başlık/H1, görseller, güvenlik başlıkları, JSON-LD doğrulaması (Organization, WebSite, BreadcrumbList, Article/BlogPosting, AboutPage, ContactPage). claude-seo `seo-technical` ve `seo-schema` kuralları.
+- [ ] **6.4 Site hızı** ⏳ PSI 429 (anahtarsız kota); curl ölçümü iyi (TTFB 0,54 sn, hafif sayfa). CWV için Search Console veya PSI API anahtarı gerekir.:** PageSpeed ölçümü, görsel (CDN yapıldı), yazı tipleri, render-engelleyici, önbellek. Tema/sunucu müdahalesi için araç sınırı var (aşağıya bak).
+- [x] **6.5 İlk veri kaydı** ✅ Drive klasörü "SepticBeacon SEO Log" (10 Sheet) ve `docs/septic-data/*.csv`. (baseline)** Google Drive'da Sheet: "Neredeydik, nereye geldik" (başlangıç ve şimdiki metrikler, yapılan değişiklikler).
+- [x] **6.6 Rakip analizi** ✅ 7 rakip, trafik, kelime, sayfa, backlink; backlink sekmesi (nofollow işaretli). (Sheet): trafik, en görünür anahtar kelimeler, en çok tıklanan sayfalar, backlink sayısı. Ayrı sekme: en önemli backlinkler (dofollow + düşük spam skoru + yüksek domain rank; nofollow olanlar ayrıca işaretli). Skill: claude-seo `seo-dataforseo`, `seo-backlinks`, `seo-competitor-pages`. Eksik kalırsa kendi skill'imiz yazılacak.
+- [x] **6.7 Anahtar kelime araştırması** ✅ hacim, CPC, zorluk, hedef sayfa. (Sheet): hacim, zorluk, **CPC** (AdSense geliri için), boş alanlara doğrudan sıralama hedefi.
+- [x] **6.8 Anahtar kelime ve içerik boşluğu** ✅ 18 Eki. (gap)** rakiplere göre.
+- [x] **6.9 İçerik planı** ✅ 12 madde (10 yeni, 2 mevcut yazı hizalama)., gap'lere dayalı.
+- [ ] **6.10 Mevcut içerik analiz** ⏳ vendor etme izin sistemi tarafından reddedildi, kullanıcı kararı bekliyor. skill'i entegrasyonu:** claude-seo `seo-content` + `seo-page` + `seo-cluster` repoya vendor edilecek (`.claude/skills/`), eksik alanlar düzenlenecek.
+- [x] **6.11 Görsel altyapısı** ✅ 18 Eki: 14 yazıya Pexels fotoğrafı + 1 özgün SVG diyagram. (yeni içerikten ÖNCE):** Pexels API ile görsel çekme (alt metin, fotoğrafçı kredisi, WebP, medya kitaplığına yükleme) + özgün diyagramlar (SVG/PNG, kendi ürettiğimiz). *Bekleyen: Pexels anahtarı.*
 
 ## 10. 18 Ekim kararları ve bulguları
 - [x] **Editör kimliği (karar bende):** Gerçek yazar adı kullanılmıyor. "SepticBeacon Editorial Team" imzası + **Editorial Policy** sayfası (`/editorial-policy/`: kaynak yöntemi, yapay zekâ destekli taslak açıklaması, "uzman değiliz" beyanı, düzeltme e-postası, reklamdan bağımsızlık). 33 yazıya imza satırı ve politika linki eklendi, yazar alanı tekilleştirildi (PUBL → Editorial Team). Uydurma uzman yok. AdSense'te yazar adı zorunlu değil, şeffaflık ve kalite önemli.
