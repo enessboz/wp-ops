@@ -42,3 +42,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-18/19 (tur 4) — T-0022 yazı 7
 - Yazı 7 (basement-crawl-space-waterproofing): "Related Guides" öncesine bölüm eklendi (DOE Building America + Rudd/BSC 2014 raporu, karar tablosu, sorular, Sources, last reviewed). +~4,5 KB HTML. Geri alma: wp revizyon.
+
+## 2026-10-19 (tur 5) — T-0022 yazı 8, 10
+- Yazı 8 (crawl-space-repair-cost): "Why the Cause Decides the Repair Bill" + tablo + sıra + Sources (EPA brief guide, DOE). Fiyat rakamı yok.
+- Yazı 10 (crawl-space-encapsulation-cost): DOE/BSC/IRC R408.3 kapsam bölümü + kalem tablosu + Sources. Fiyat rakamı yok. Geri alma: revizyon.
