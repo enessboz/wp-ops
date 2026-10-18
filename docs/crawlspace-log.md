@@ -35,3 +35,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - Yazı 6 (moisture-in-crawl-space): "What EPA Guidance Says About Crawl Space Moisture" bölümü + Sources and Further Reading (EPA mold-course-chapter-2, EPA Brief Guide) eklendi; kaynaklar curl ile okundu. Yazı 9 (wet-crawl-space): "What EPA Guidance Says About Water Under a House" + Sources eklendi.
 - Bulgu: yazı 6, 9, 7, 8, 10 <1.500 kelime ve otorite kaynağı yok ("AI assistant" kutusu linkleri kaynak değil). 7, 8, 10 sırada.
 - Açık: ana sayfa OG görseli (meta yazıldı, çıktıya yansımadı).
+
+## 2026-10-18 (tur 3) — iç link / kanibalizasyon (T-0017)
+- wp_replace_in_post ile 15 yazıya FAQ öncesi "Related Guides" bölümü eklendi: 6, 7, 8, 9, 10, 85, 118, 122, 133, 138, 143, 148, 162, 177, 182 (geri alma: wp_history / revizyon). Önce hiçbir çiftte karşılıklı link yoktu.
+- Sonuç: birleştirme yok, 301 yok; odak kelimeler değişmedi.
