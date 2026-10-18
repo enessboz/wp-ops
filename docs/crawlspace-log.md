@@ -2,6 +2,13 @@
 
 Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
+## 2026-10-18
+- Rank Math focus keyword (boş → değer), 23 yazı: 182 "sump pump in crawl space", 172 "crawl space insulation", 177 "crawl space drainage", 167 "crawl space encapsulation contractor", 148 "crawl space sump pump cost", 143 "vapor barrier vs encapsulation", 162 "crawl space waterproofing cost", 133 "crawl space mold removal", 118 "crawl space drainage cost", 155 "sagging floor repair cost", 127 "crawl space vapor barrier cost", 122 "is crawl space encapsulation worth it", 138 "crawl space mold remediation cost", 113 "best crawl space vapor barrier", 106 "crawl space dehumidifier cost", 101 "crawl space dehumidifier size", 96 "best crawl space dehumidifier", 85 "crawl space encapsulation", 10 "crawl space encapsulation cost", 9 "wet crawl space", 8 "crawl space repair cost", 7 "crawl space waterproofing", 6 "moisture in crawl space".
+- Site simgesi: Python/PIL ile üretilmiş özgün 512 px PNG (ev + kriş arch) medya 224 olarak yüklendi, `site_icon` 0 → 224. Canlı sitede `<link rel="icon">` doğrulanacak.
+- Kategori açıklamaları eklendi: 7 (Mold & Air Quality), 6 (Products & Equipment).
+- Arşivde not: Sayfa/yazı focus keyword'leri title/description ile uyum için sonraki turda gözden geçirilecek; yazı title şablonu `%title% %sep% %sitename%` olduğundan bazı SEO title'ları 60 karakteri aşıyor olabilir (kontrol edilecek).
+- Not: Sabah görevi 05:48 UTC'de tetiklendi. Backuply yedeğini bu araçlarla tetikleyemiyorum, ilk günkü kullanıcı yedeğine güveniliyor.
+
 ## 2026-10-17
 - Tarama: Rank Math audit 80/100; Site Health 0 kritik; 23 yazı, 10 sayfa; link raporu 12 yazıda iç link yok, 16 yazıda dış link yok.
 - Sayfa 2 (Sample Page) ve çöpteki 21 yazı (ID 41-60 ve 1) kalıcı silindi.
