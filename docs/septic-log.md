@@ -62,3 +62,9 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **Yazı 408 `septic-mound-system` yayınlandı** (draft → publish, kategori System Types, odak "septic mound system"). EPA mound.pdf linki 404'tü → `www.epa.gov/sites/default/files/2015-06/documents/mound.pdf`; "1–4 feet" ifadesi PDF'te doğrulandı. 301'li installation-cost linki kaldırıldı; byline, BreadcrumbList, güvenlik notu eklendi; yorum/ping kapalı; görsel medya 616 (Pexels 28487515, temsili). Geri linkler: 68, 159, 200, 104.
 - Yazı 406: kategori Septic Basics → System Types, breadcrumb güncellendi.
 - Not: haftalık ≤2 yazı kuralı, Enes'in "her gün 1 yazı" kuralıyla değişti (boz-agent `company/policies/web-ops.md`).
+
+## 2026-10-19 (Septic günü, web turu)
+- **Yazı 626 `types-of-septic-systems` yayınlandı** (System Types, odak "types of septic systems", 2593 kelime). Kaynaklar: EPA types, WA DOH types, TAMU OSSF (curl ile okundu). Görsel medya 630 (Pexels 12503553, temsili). Geri linkler: 68, 159, 200, 406, 408 (FAQ/Sources öncesi paragraf).
+- **Yazı 159 `septic-system-cost`:** bozuk "$" düzeltildi: ",593 to ,463" → "$3,593 to $12,463" (×2); ",500 to ,500 installed" → "$3,500 to $8,500 installed"; ",000 to ,000" → "$4,000 to $15,000" (×2); "0 to ,500 for" → "$900 to $1,500 for" (×2); "A complete ,000 quote … a ,500 quote" → "A complete, itemized quote … a lower-looking quote" (orijinal rakamlar bilinmiyordu).
+- **Yazı 105 `septic-tank-pumping-cost`:** excerpt "$300–$600" → "Angi $292–$565, HomeGuide $300–$700"; 3 iç link (septic-tank-size, septic-system-cost, septic-tank-maintenance) FAQ öncesi.
+- Sitemap önbelleği temizlendi.
