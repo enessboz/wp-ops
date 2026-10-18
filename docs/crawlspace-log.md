@@ -46,3 +46,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-19 (tur 5) — T-0022 yazı 8, 10
 - Yazı 8 (crawl-space-repair-cost): "Why the Cause Decides the Repair Bill" + tablo + sıra + Sources (EPA brief guide, DOE). Fiyat rakamı yok.
 - Yazı 10 (crawl-space-encapsulation-cost): DOE/BSC/IRC R408.3 kapsam bölümü + kalem tablosu + Sources. Fiyat rakamı yok. Geri alma: revizyon.
+
+## 2026-10-19 (tur 6) — T-0022 yazı 6, 9
+- Yazı 9 (wet-crawl-space): "What to Document Before You Call a Contractor" bölümü + DOE kaynağı Sources'a eklendi, last reviewed 19 Eki.
+- Yazı 6 (moisture-in-crawl-space): "How to Check Whether Your Fixes Are Working" bölümü + tablo. Geri alma: revizyon.
