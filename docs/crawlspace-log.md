@@ -39,3 +39,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-18 (tur 3) — iç link / kanibalizasyon (T-0017)
 - wp_replace_in_post ile 15 yazıya FAQ öncesi "Related Guides" bölümü eklendi: 6, 7, 8, 9, 10, 85, 118, 122, 133, 138, 143, 148, 162, 177, 182 (geri alma: wp_history / revizyon). Önce hiçbir çiftte karşılıklı link yoktu.
 - Sonuç: birleştirme yok, 301 yok; odak kelimeler değişmedi.
+
+## 2026-10-18/19 (tur 4) — T-0022 yazı 7
+- Yazı 7 (basement-crawl-space-waterproofing): "Related Guides" öncesine bölüm eklendi (DOE Building America + Rudd/BSC 2014 raporu, karar tablosu, sorular, Sources, last reviewed). +~4,5 KB HTML. Geri alma: wp revizyon.
