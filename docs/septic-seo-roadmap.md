@@ -182,7 +182,7 @@ Faz 0 sonunda Search Console'dan şunlar kaydedilir ve haftalık izlenir:
 - [x] **6.7 Anahtar kelime araştırması** ✅ hacim, CPC, zorluk, hedef sayfa. (Sheet): hacim, zorluk, **CPC** (AdSense geliri için), boş alanlara doğrudan sıralama hedefi.
 - [x] **6.8 Anahtar kelime ve içerik boşluğu** ✅ 18 Eki. (gap)** rakiplere göre.
 - [x] **6.9 İçerik planı** ✅ 12 madde (10 yeni, 2 mevcut yazı hizalama)., gap'lere dayalı.
-- [ ] **6.10 Mevcut içerik analiz** ⏳ vendor etme izin sistemi tarafından reddedildi, kullanıcı kararı bekliyor. skill'i entegrasyonu:** claude-seo `seo-content` + `seo-page` + `seo-cluster` repoya vendor edilecek (`.claude/skills/`), eksik alanlar düzenlenecek.
+- [x] **6.10 Mevcut içerik analiz skill'i entegrasyonu** (19 Ekim kararı bende): skill'ler **repoya kopyalanmıyor** (izin sistemi engelledi, ayrıca MIT lisanslı kaynakla senkron kalması daha kolay). Bunun yerine her oturum `bash scripts/seo/setup.sh` ile `AgriciDaniel/claude-seo` klonlar ve `seo-content`, `seo-page`, `seo-cluster`, `seo-technical`, `seo-dataforseo` kurallarını `scripts/seo/` betikleriyle uygular. İçerik düzenlemeleri 18 Ekim denetimiyle yapıldı (bkz. `docs/septic-content-audit.md`).
 - [x] **6.11 Görsel altyapısı** ✅ 18 Eki: 14 yazıya Pexels fotoğrafı + 1 özgün SVG diyagram. (yeni içerikten ÖNCE):** Pexels API ile görsel çekme (alt metin, fotoğrafçı kredisi, WebP, medya kitaplığına yükleme) + özgün diyagramlar (SVG/PNG, kendi ürettiğimiz). *Bekleyen: Pexels anahtarı.*
 
 ## 10. 18 Ekim kararları ve bulguları

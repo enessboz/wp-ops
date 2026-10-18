@@ -51,3 +51,8 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **6.1/6.6/6.7/6.8/6.9 DataForSEO:** harcama ≈ $0.91 (kalan ≈ $0.70). Backlinks API fiyatı resmi sayfadan doğrulandı (pay-as-you-go, istek başına $0.024 + satır başına $0.000036), özet çağrısı $0.024036 geldi. Rakipler `serp_competitors` ile 30 sorgudan seçildi: angi.com, homeserve.com, wrenvironmental.com, theseptic.guide, septicandwell.com, premiertechaqua.com, epa.gov. Çıktılar `docs/septic-data/*.csv` ve Drive klasörü "SepticBeacon SEO Log" (10 Sheet, her biri bir sekme).
 - **6.2 Karar:** hiçbir yazı silinmedi veya birleştirilmedi. Veri: site 47 kelimede sıralanıyor, hepsi 21. sıra ve altı, tahmini trafik ≈ 0,5 (düşük kalite sinyali değil, sitenin yaşı). Search Console olmadan tıklama verisi yok; 160→159 birleştirmesi dışında benzer çift bulunmadı (en yüksek benzerlik 0,50, farklı niyet). Eylem: içerik planında 2 mevcut yazıyı kelimeye hizala, silme yok.
 - **6.10 Engellendi:** claude-seo skill'lerinin `.claude/skills/` altına kopyalanması araç izin sistemi tarafından reddedildi; denemeyi tekrarlamadım. Depo `/home/user/agricidaniel/claude-seo` olarak klonlandı (ortam içinde), vendor etme kullanıcı onayı bekliyor.
+
+## 2026-10-18 (Pazar günlük çalışma, haftalık tarama)
+- **Haftalık tarama** (`scripts/seo/weekly_scan.py`, yeni): sitemap 45 URL (post, page, category). Durum ≠200: 0. Title >65: 0. Meta >160 veya <70: 0. H1 ≠1: 0. Canonical kendisi değil: 0. noindex: 0. Gelen iç link en az 3 (blog, disclaimer, privacy-policy, garbage-disposal, septic-smell).
+- **6.10 kararı:** claude-seo skill'leri repoya kopyalanmaz, `scripts/seo/setup.sh` ile oturum başına klonlanır.
+- Faz 6 oturumunun (session_014KTazYsAw434gwDcHiqQVr) çıktıları çekildi: `docs/septic-data/*.csv`, `scripts/seo/dfs.py`.
