@@ -56,3 +56,9 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **Haftalık tarama** (`scripts/seo/weekly_scan.py`, yeni): sitemap 45 URL (post, page, category). Durum ≠200: 0. Title >65: 0. Meta >160 veya <70: 0. H1 ≠1: 0. Canonical kendisi değil: 0. noindex: 0. Gelen iç link en az 3 (blog, disclaimer, privacy-policy, garbage-disposal, septic-smell).
 - **6.10 kararı:** claude-seo skill'leri repoya kopyalanmaz, `scripts/seo/setup.sh` ile oturum başına klonlanır.
 - Faz 6 oturumunun (session_014KTazYsAw434gwDcHiqQVr) çıktıları çekildi: `docs/septic-data/*.csv`, `scripts/seo/dfs.py`.
+
+## 2026-10-18 (öğleden sonra: görsel düzeltmesi + mound yayını, Enes oturumu)
+- Öne çıkan görsel: yazı 511 → medya 614 (Pexels 754276); 94 → medya 615 (Pexels 12683080, eski 20 yazı 173 ile paylaşılıyordu); 406 → 565; 265 → 564 (0 → ID).
+- **Yazı 408 `septic-mound-system` yayınlandı** (draft → publish, kategori System Types, odak "septic mound system"). EPA mound.pdf linki 404'tü → `www.epa.gov/sites/default/files/2015-06/documents/mound.pdf`; "1–4 feet" ifadesi PDF'te doğrulandı. 301'li installation-cost linki kaldırıldı; byline, BreadcrumbList, güvenlik notu eklendi; yorum/ping kapalı; görsel medya 616 (Pexels 28487515, temsili). Geri linkler: 68, 159, 200, 104.
+- Yazı 406: kategori Septic Basics → System Types, breadcrumb güncellendi.
+- Not: haftalık ≤2 yazı kuralı, Enes'in "her gün 1 yazı" kuralıyla değişti (boz-agent `company/policies/web-ops.md`).
