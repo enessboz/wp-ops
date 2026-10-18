@@ -29,3 +29,9 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - Meta açıklama (boş/otomatik "Last updated: …" → yazıldı): sayfa 14, 15, 13, 12, 3. Blog sayfası 35: Rank Math title "Crawl Space Guides: Moisture, Encapsulation and Costs" + açıklama.
 - Meta açıklama ≤160'a kısaltıldı: yazı 133 (166), 162 (170), 143 (165), 148 (161).
 - Bulgu (açık): ana sayfa + 7 sayfada og:image yok; varsayılan OG görseli gerekli (kuyruk T-0020). Rank Math audit 86/100. 8 sayfada odak kelime yok. GSC bağlı değil.
+
+## 2026-10-18 (tur 2, 17:57)
+- Meta açıklama ≤160: yazı 101, 122, 162.
+- Yazı 6 (moisture-in-crawl-space): "What EPA Guidance Says About Crawl Space Moisture" bölümü + Sources and Further Reading (EPA mold-course-chapter-2, EPA Brief Guide) eklendi; kaynaklar curl ile okundu. Yazı 9 (wet-crawl-space): "What EPA Guidance Says About Water Under a House" + Sources eklendi.
+- Bulgu: yazı 6, 9, 7, 8, 10 <1.500 kelime ve otorite kaynağı yok ("AI assistant" kutusu linkleri kaynak değil). 7, 8, 10 sırada.
+- Açık: ana sayfa OG görseli (meta yazıldı, çıktıya yansımadı).
