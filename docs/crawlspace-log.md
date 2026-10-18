@@ -23,3 +23,9 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - Rank Math author sitemap (`authors_sitemap`) true → false.
 - Rank Math `llms-txt` modülü false → true, `rewrite flush`. `/llms.txt` 404 → içerik dönüyor ("# CrawlSpacePilot", Rank Math üretimi).
 - Zamanlanmış görev: her gün 08:47 (Europe/Istanbul), bu oturuma gelir. Talimat wp-ops `docs/crawlspace-operations.md` dosyasına bağlı.
+
+## 2026-10-18 (öğleden sonra, Enes oturumu)
+- Rank Math sitemap önbelleği temizlendi: page-sitemap'teki var olmayan `/sample-page/` (404) kalktı; contact ve about girdi.
+- Meta açıklama (boş/otomatik "Last updated: …" → yazıldı): sayfa 14, 15, 13, 12, 3. Blog sayfası 35: Rank Math title "Crawl Space Guides: Moisture, Encapsulation and Costs" + açıklama.
+- Meta açıklama ≤160'a kısaltıldı: yazı 133 (166), 162 (170), 143 (165), 148 (161).
+- Bulgu (açık): ana sayfa + 7 sayfada og:image yok; varsayılan OG görseli gerekli (kuyruk T-0020). Rank Math audit 86/100. 8 sayfada odak kelime yok. GSC bağlı değil.
