@@ -50,3 +50,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-19 (tur 6) — T-0022 yazı 6, 9
 - Yazı 9 (wet-crawl-space): "What to Document Before You Call a Contractor" bölümü + DOE kaynağı Sources'a eklendi, last reviewed 19 Eki.
 - Yazı 6 (moisture-in-crawl-space): "How to Check Whether Your Fixes Are Working" bölümü + tablo. Geri alma: revizyon.
+
+## 2026-10-20 (İstanbul; site saati 19 Eki 17:12) — yeni yazı
+- Yazı 254 `musty-smell-from-crawl-space` oluşturuldu (taslak → yayın), kategori 7 Mold & Air Quality, medya 255 öne çıkan (Pexels 10847194), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 6, 9, 133, 138. Geri alma: yazıyı taslağa al (silme yok).
