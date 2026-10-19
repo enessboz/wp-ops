@@ -68,3 +68,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **Yazı 159 `septic-system-cost`:** bozuk "$" düzeltildi: ",593 to ,463" → "$3,593 to $12,463" (×2); ",500 to ,500 installed" → "$3,500 to $8,500 installed"; ",000 to ,000" → "$4,000 to $15,000" (×2); "0 to ,500 for" → "$900 to $1,500 for" (×2); "A complete ,000 quote … a ,500 quote" → "A complete, itemized quote … a lower-looking quote" (orijinal rakamlar bilinmiyordu).
 - **Yazı 105 `septic-tank-pumping-cost`:** excerpt "$300–$600" → "Angi $292–$565, HomeGuide $300–$700"; 3 iç link (septic-tank-size, septic-system-cost, septic-tank-maintenance) FAQ öncesi.
 - Sitemap önbelleği temizlendi.
+
+## 2026-10-20 (web turu)
+- **Yazı 94 `how-to-find-a-buried-septic-tank` genişletildi** (T-0024): "A university extension method: measure from the sewer pipe" bölümü + güvenlik kontrol listesi eklendi (University of Georgia Extension septic folder PDF'i curl ile okundu; mesafeler "tek Georgia rehberinden tipik değerler" diye etiketlendi). Kaynak listesine UGA satırı eklendi; `how-to-find-septic-system-records` iç linki eklendi. Önce 1340 kelime. Başlık/H1 hizalaması yapılmadı.
