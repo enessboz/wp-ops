@@ -53,3 +53,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-20 (İstanbul; site saati 19 Eki 17:12) — yeni yazı
 - Yazı 254 `musty-smell-from-crawl-space` oluşturuldu (taslak → yayın), kategori 7 Mold & Air Quality, medya 255 öne çıkan (Pexels 10847194), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 6, 9, 133, 138. Geri alma: yazıyı taslağa al (silme yok).
+
+## 2026-10-20 (tur 8) — içerik denetimi
+- Yazı 85: DOE + Rudd/BSC bölümü + Sources. Yazı 96, 101: EPA nem hedefi bölümü + Sources. Yazı 106: değişiklik yok (Angi çekincesi doğru). Geri alma: revizyon.
