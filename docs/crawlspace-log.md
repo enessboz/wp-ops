@@ -56,3 +56,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-20 (tur 8) — içerik denetimi
 - Yazı 85: DOE + Rudd/BSC bölümü + Sources. Yazı 96, 101: EPA nem hedefi bölümü + Sources. Yazı 106: değişiklik yok (Angi çekincesi doğru). Geri alma: revizyon.
+
+## 2026-10-20 (tur 9) — odak kelimeler, og:image
+- Odak kelime: sayfa 34 "crawl space guides" (set_homepage_seo), 35 "crawl space articles", 191 "about CrawlSpacePilot", 192 "contact CrawlSpacePilot". Yasal sayfalara yazılmadı.
+- og:image: 191'e rank_math_facebook_image/twitter_image URL yazıldı (etkisiz); varsayılan OG görseli Enes'e verildi (Rank Math → Titles & Meta → Global Meta → OpenGraph Thumbnail).
