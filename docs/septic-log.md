@@ -75,3 +75,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-21 (Septic günü, web turu)
 - **Yazı 645 `septic-tank-risers-and-lids` yayınlandı** (Parts & Sizing, odak "septic tank risers", 2581 kelime). Kaynaklar: WA DOH lid safety, San Diego County pumping checklist, Thurston County riser kurulum sayfası (curl ile okundu). Maliyet rakamı yok. Görsel medya 646 (Pexels 37554739, temsili).
 - Geri linkler (FAQ öncesi paragraf): 94, 105, 173, 163. Sitemap önbelleği temizlendi.
+
+## 2026-10-21 (web turu, 02:08)
+- **Yazı 104 `drain-field-replacement-cost` genişletildi** (1265 → 1931 kelime): "What a state health department says about drain field failure" bölümü (WA DOH Signs of Septic System Failure, curl ile okundu) + kaynak satırı; iç linkler eklendi. Rakam eklenmedi.
