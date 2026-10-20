@@ -71,3 +71,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-20 (web turu)
 - **Yazı 94 `how-to-find-a-buried-septic-tank` genişletildi** (T-0024): "A university extension method: measure from the sewer pipe" bölümü + güvenlik kontrol listesi eklendi (University of Georgia Extension septic folder PDF'i curl ile okundu; mesafeler "tek Georgia rehberinden tipik değerler" diye etiketlendi). Kaynak listesine UGA satırı eklendi; `how-to-find-septic-system-records` iç linki eklendi. Önce 1340 kelime. Başlık/H1 hizalaması yapılmadı.
+
+## 2026-10-21 (Septic günü, web turu)
+- **Yazı 645 `septic-tank-risers-and-lids` yayınlandı** (Parts & Sizing, odak "septic tank risers", 2581 kelime). Kaynaklar: WA DOH lid safety, San Diego County pumping checklist, Thurston County riser kurulum sayfası (curl ile okundu). Maliyet rakamı yok. Görsel medya 646 (Pexels 37554739, temsili).
+- Geri linkler (FAQ öncesi paragraf): 94, 105, 173, 163. Sitemap önbelleği temizlendi.
