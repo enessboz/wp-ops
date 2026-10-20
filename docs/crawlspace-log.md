@@ -60,3 +60,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-20 (tur 9) — odak kelimeler, og:image
 - Odak kelime: sayfa 34 "crawl space guides" (set_homepage_seo), 35 "crawl space articles", 191 "about CrawlSpacePilot", 192 "contact CrawlSpacePilot". Yasal sayfalara yazılmadı.
 - og:image: 191'e rank_math_facebook_image/twitter_image URL yazıldı (etkisiz); varsayılan OG görseli Enes'e verildi (Rank Math → Titles & Meta → Global Meta → OpenGraph Thumbnail).
+
+## 2026-10-21 (tur 10) — içerik denetimi
+- Yazı 113, 127: IRC R408.3 kapsam bölümü (Rudd/BSC 2014) + Sources. Yazı 143: DOE + BSC bölümü + Sources. 167, 172: kaynak eksik, açık. Geri alma: revizyon.
