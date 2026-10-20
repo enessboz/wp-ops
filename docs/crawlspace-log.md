@@ -63,3 +63,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-21 (tur 10) — içerik denetimi
 - Yazı 113, 127: IRC R408.3 kapsam bölümü (Rudd/BSC 2014) + Sources. Yazı 143: DOE + BSC bölümü + Sources. 167, 172: kaynak eksik, açık. Geri alma: revizyon.
+
+## 2026-10-21 (tur 11) — içerik denetimi
+- Yazı 172, 167: DOE Home Improvement Expert "Vented to Unvented Crawl Space" kontrol listesi bölümü + Sources. Geri alma: revizyon.
