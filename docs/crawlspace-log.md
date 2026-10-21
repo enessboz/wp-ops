@@ -66,3 +66,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-21 (tur 11) — içerik denetimi
 - Yazı 172, 167: DOE Home Improvement Expert "Vented to Unvented Crawl Space" kontrol listesi bölümü + Sources. Geri alma: revizyon.
+
+## 2026-10-22 (İstanbul; site saati 21 Eki 17:10) — yeni yazı
+- Yazı 269 `crawl-space-vents-open-or-closed` oluşturuldu (taslak → yayın), kategori 2 Moisture & Water, medya 270 öne çıkan (Pexels 36056459), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 143, 6, 85, 9. Geri alma: taslağa al (silme yok).
