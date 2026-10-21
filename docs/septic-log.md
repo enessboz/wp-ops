@@ -78,3 +78,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-21 (web turu, 02:08)
 - **Yazı 104 `drain-field-replacement-cost` genişletildi** (1265 → 1931 kelime): "What a state health department says about drain field failure" bölümü (WA DOH Signs of Septic System Failure, curl ile okundu) + kaynak satırı; iç linkler eklendi. Rakam eklenmedi.
+
+## 2026-10-22 (web turu, 00:08)
+- **Yazı 103 `septic-tank-repair-cost` genişletildi** (T-0023): "Who does septic repairs? What a state health department says" bölümü (WA DOH Hiring a Septic System Professional, curl ile okundu) + profesyonel türleri tablosu + soru listesi; kaynak satırları (hiring-professional, signs-failure) ve iç linkler eklendi. Rakam eklenmedi.
