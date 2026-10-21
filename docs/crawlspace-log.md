@@ -69,3 +69,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-22 (İstanbul; site saati 21 Eki 17:10) — yeni yazı
 - Yazı 269 `crawl-space-vents-open-or-closed` oluşturuldu (taslak → yayın), kategori 2 Moisture & Water, medya 270 öne çıkan (Pexels 36056459), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 143, 6, 85, 9. Geri alma: taslağa al (silme yok).
+
+## 2026-10-22 (tur 14) — içerik denetimi
+- Kaynaklı bölüm + Sources eklendi: 133, 138 (EPA), 122 (DOE + BSC), 177, 118 (BSC + DOE kontrol listesi), 182, 148 (BSC). Fiyat yok. Geri alma: revizyon.
