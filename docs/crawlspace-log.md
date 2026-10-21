@@ -72,3 +72,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-22 (tur 14) — içerik denetimi
 - Kaynaklı bölüm + Sources eklendi: 133, 138 (EPA), 122 (DOE + BSC), 177, 118 (BSC + DOE kontrol listesi), 182, 148 (BSC). Fiyat yok. Geri alma: revizyon.
+
+## 2026-10-22 (tur 15) — görsel denetimi
+- 13 yazıdan (113, 118, 122, 127, 133, 138, 143, 148, 155, 162, 167, 172, 177, 182) toplam 38 satır içi stok görsel bloğu + "Photo by … on Pexels" kredi satırı kaldırıldı (wp_replace_in_post, regex). Neden: görseller konuyla ilgisiz (çocuk, yaprak, salyangoz, HTML kodu…) ve alt metinleri crawl space diyagramı/fotoğrafı tarif ediyordu. Medya dosyaları silinmedi. Geri alma: wp_history / revizyon.
+- Açık karar (Enes): 85, 96, 101, 106 yapay zekâ görselleri (bozuk metin), öne çıkan görseller.
