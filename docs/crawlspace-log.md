@@ -76,3 +76,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-22 (tur 15) — görsel denetimi
 - 13 yazıdan (113, 118, 122, 127, 133, 138, 143, 148, 155, 162, 167, 172, 177, 182) toplam 38 satır içi stok görsel bloğu + "Photo by … on Pexels" kredi satırı kaldırıldı (wp_replace_in_post, regex). Neden: görseller konuyla ilgisiz (çocuk, yaprak, salyangoz, HTML kodu…) ve alt metinleri crawl space diyagramı/fotoğrafı tarif ediyordu. Medya dosyaları silinmedi. Geri alma: wp_history / revizyon.
 - Açık karar (Enes): 85, 96, 101, 106 yapay zekâ görselleri (bozuk metin), öne çıkan görseller.
+
+## 2026-10-23 (tur 16) — öne çıkan görsel alt metinleri
+- Medya 109, 114, 119, 123, 129, 134, 139, 144, 151, 158, 163, 168, 173, 178: alt metin, dosyada görünen şeyi tarif eden dürüst metinle değiştirildi (eski: crawl space sahnesi tarifleri). Yazı 155: "Featured image caption" cümlesi düzeltildi. Dosyalar değişmedi. Geri alma: eski alt metin yukarıdaki log ve medya revizyonu yok; önceki değerler 18–22 Eki raporunda tarif edildi.
