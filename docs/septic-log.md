@@ -85,3 +85,4 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-23 (Septic günü, web turu)
 - **Yazı 656 `concrete-vs-plastic-septic-tank` yayınlandı** (Parts & Sizing, odak "concrete vs plastic septic tank", 2019 kelime). Kaynaklar: Maine 10-144 CMR ch.241, Massachusetts 310 CMR 15.226, Texas 30 TAC §285.32 (Cornell LII, curl ile okundu). Ömür/fiyat rakamı yok. Görsel medya 660 (Pexels 4790056, temsili).
 - Geri linkler: 161 (FAQ öncesi), 250 ("When to Stop Troubleshooting" öncesi), 645 (riser yazısına Maine/Texas riser kuralı paragrafı + link). Sitemap önbelleği temizlendi.
+- (23 Ekim 01:09) Yazı 265 `septic-tank-size`: `/concrete-vs-plastic-septic-tank/` geri linki eklendi ("When to talk to a professional" öncesi paragraf).
