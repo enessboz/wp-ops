@@ -79,3 +79,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-23 (tur 16) — öne çıkan görsel alt metinleri
 - Medya 109, 114, 119, 123, 129, 134, 139, 144, 151, 158, 163, 168, 173, 178: alt metin, dosyada görünen şeyi tarif eden dürüst metinle değiştirildi (eski: crawl space sahnesi tarifleri). Yazı 155: "Featured image caption" cümlesi düzeltildi. Dosyalar değişmedi. Geri alma: eski alt metin yukarıdaki log ve medya revizyonu yok; önceki değerler 18–22 Eki raporunda tarif edildi.
+
+## 2026-10-24 (İstanbul; site saati 23 Eki 17:09) — yeni yazı
+- Yazı 298 `crawl-space-fan` oluşturuldu (taslak → yayın), kategori 6 Products & Equipment, medya 299 öne çıkan (Pexels 36129008, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides / metin): 269, 6, 143, 101. Geri alma: taslağa al (silme yok).
