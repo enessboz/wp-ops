@@ -91,3 +91,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **Yazı 234 `garbage-disposal-septic-system`:** ölü `extension.umn.edu/septic-systems/garbage-disposals-and-septic-systems` (404) linkine dayanan 2 cümle, WA DOH "Caring for Your Septic System" atfıyla yeniden yazıldı (regex replace; "University extension programs often advise limiting or avoiding…" → "Washington State Department of Health notes that using a garbage disposal increases the amount of solids entering the septic tank, which means more frequent pumping"; "…often accumulate solids faster…" → "…send more solids to the tank…"). Sayfada UMN linki kalmadı.
 - (24 Ekim 01:10) **Yazı 408 `septic-mound-system`:** Kaynak listesinden ölü (404) King County mound homeowner's manual satırı kaldırıldı (metinde atıf yoktu).
 - (24 Ekim 02:08) **Yazı 406 `aerobic-septic-system`:** ölü/ulaşılamayan `pods.okstate.edu/fact-sheets/PSS-2275pod.pdf` linki (metin + kaynak listesi, 2 yer) → `https://extension.okstate.edu/fact-sheets/aerobic-treatment-system`.
+
+## 2026-10-25 (Septic günü, web turu)
+- **Yazı 669 `cesspool-vs-septic-tank` yayınlandı** (Septic Basics, odak "cesspool vs septic tank", 2380 kelime). Kaynaklar: EPA types, WA DOH types (Outdated Systems), MassDEP Title 5 FAQ, RI DEM Cesspool Act FAQ (2015) — curl ile okundu. Eski RI maliyet rakamları 2015/tek eyalet etiketli. Görsel medya 673 (Pexels 37397097, temsili).
+- Geri linkler (FAQ öncesi paragraf): 626, 196, 171, 68. Sitemap önbelleği temizlendi.
