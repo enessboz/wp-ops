@@ -82,3 +82,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-24 (İstanbul; site saati 23 Eki 17:09) — yeni yazı
 - Yazı 298 `crawl-space-fan` oluşturuldu (taslak → yayın), kategori 6 Products & Equipment, medya 299 öne çıkan (Pexels 36129008, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides / metin): 269, 6, 143, 101. Geri alma: taslağa al (silme yok).
+
+## 2026-10-26 (İstanbul; site saati 25 Eki 17:10) — yeni yazı
+- Yazı 305 `radon-in-crawl-space` oluşturuldu (taslak → yayın), kategori 7 Mold & Air Quality, medya 313 öne çıkan (Pexels 32079710, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 298, 269, 254, 85. Geri alma: taslağa al (silme yok).
