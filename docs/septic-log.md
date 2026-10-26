@@ -95,3 +95,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-25 (Septic günü, web turu)
 - **Yazı 669 `cesspool-vs-septic-tank` yayınlandı** (Septic Basics, odak "cesspool vs septic tank", 2380 kelime). Kaynaklar: EPA types, WA DOH types (Outdated Systems), MassDEP Title 5 FAQ, RI DEM Cesspool Act FAQ (2015) — curl ile okundu. Eski RI maliyet rakamları 2015/tek eyalet etiketli. Görsel medya 673 (Pexels 37397097, temsili).
 - Geri linkler (FAQ öncesi paragraf): 626, 196, 171, 68. Sitemap önbelleği temizlendi.
+
+## 2026-10-27 (Septic günü, web turu)
+- **Yazı 678 `septic-distribution-box` yayınlandı** (Parts & Sizing, odak "septic distribution box", 2092 kelime). Kaynaklar: Maine 10-144 CMR ch.241, WA DOH (Types + Signs of Failure), MassDEP Title 5 FAQ, NJ denetim protokolü (Gloucester/Salem County) — curl ile okundu. Fiyat yok. Görsel medya 679 (Pexels 8977530, temsili).
+- Geri linkler (FAQ/Sources/ilgili başlık öncesi paragraf): 200, 68, 626, 259. Sitemap önbelleği temizlendi.
