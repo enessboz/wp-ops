@@ -88,3 +88,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-28 (İstanbul; site saati 27 Eki 17:12) — yeni yazı
 - Yazı 318 `crawl-space-flood-vents` oluşturuldu (taslak → yayın), kategori 2, medya 319 öne çıkan (Pexels 28447776, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 269, 298, 143, 85, 172 (172'de yeni "Related Guides" bölümü eklendi). Geri alma: 318'i taslağa al (silme yok); geri linkleri yazılardan kaldır.
+
+## 2026-10-28 (İstanbul; site saati 27 Eki ~18:10) — link düzeltmeleri
+- Yazı 172: bozuk ENERGY STAR href düzeltildi (`seal_insulate/basement_crawlspace`, target/rel eklendi). Geri alma: wp_history veya revizyon.
+- Yazı 118: Reddit linki + "Floor movement and finish cracking… not as something you should expect" cümlesi kaldırıldı, yerine "If floor movement or finish cracking appears after a space dries out, raise it with a qualified professional." Geri alma: yazı revizyonu.
