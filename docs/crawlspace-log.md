@@ -85,3 +85,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-26 (İstanbul; site saati 25 Eki 17:10) — yeni yazı
 - Yazı 305 `radon-in-crawl-space` oluşturuldu (taslak → yayın), kategori 7 Mold & Air Quality, medya 313 öne çıkan (Pexels 32079710, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 298, 269, 254, 85. Geri alma: taslağa al (silme yok).
+
+## 2026-10-28 (İstanbul; site saati 27 Eki 17:12) — yeni yazı
+- Yazı 318 `crawl-space-flood-vents` oluşturuldu (taslak → yayın), kategori 2, medya 319 öne çıkan (Pexels 28447776, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 269, 298, 143, 85, 172 (172'de yeni "Related Guides" bölümü eklendi). Geri alma: 318'i taslağa al (silme yok); geri linkleri yazılardan kaldır.
