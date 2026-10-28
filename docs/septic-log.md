@@ -107,3 +107,4 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-29 (Septic günü, web turu)
 - **Yazı 693 `septic-tank-baffles-and-effluent-filters` yayınlandı** (Parts & Sizing, odak "septic effluent filter", 1900 kelime). Kaynaklar: WA DOH (Types, Signs of Failure, Caring), Maine 10-144 CMR ch.241, Texas 30 TAC §285.32 — curl ile okundu. Fiyat yok. Görsel medya 698 (Pexels 7031581, temsili).
 - Geri linkler (FAQ öncesi paragraf): 173, 93, 59. Sitemap önbelleği temizlendi.
+- (29 Ekim 01:10) Yazı 224 `septic-tank-backup`: /septic-tank-baffles-and-effluent-filters/ geri linki eklendi ("How to Prevent Future Septic Backups" öncesi).
