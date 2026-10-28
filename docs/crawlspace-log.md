@@ -92,3 +92,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 ## 2026-10-28 (İstanbul; site saati 27 Eki ~18:10) — link düzeltmeleri
 - Yazı 172: bozuk ENERGY STAR href düzeltildi (`seal_insulate/basement_crawlspace`, target/rel eklendi). Geri alma: wp_history veya revizyon.
 - Yazı 118: Reddit linki + "Floor movement and finish cracking… not as something you should expect" cümlesi kaldırıldı, yerine "If floor movement or finish cracking appears after a space dries out, raise it with a qualified professional." Geri alma: yazı revizyonu.
+
+## 2026-10-29 (İstanbul; site saati 28 Eki ~14:15) — kaynak düzeltmesi
+- Yazı 162: "EPA mold guidance and CDC mold resources … avoid identifying organisms by appearance" cümlesi → "EPA's Brief Guide to Mold, Moisture and Your Home centers on finding and fixing the moisture source." (CDC sayfası okunamadığı için atıf kaldırıldı; genel epa.gov/mold ve cdc.gov/mold linkleri gitti). Geri alma: yazı revizyonu.
