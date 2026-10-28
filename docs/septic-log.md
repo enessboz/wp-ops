@@ -103,3 +103,7 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - (28 Ekim 00:09) **Yazı 93 `how-to-know-if-septic-tank-is-full` genişletildi** (T-0025): "What a state health department says about common causes" bölümü (WA DOH Signs of Septic System Failure, curl ile okundu), iç linkler, kaynak satırı; 1434 → ~1850 kelime.
 - (28 Ekim 01:09) **Yazı 200 `what-is-a-septic-drain-field` genişletildi** (T-0025): "How the EPA and a state health department describe drain field designs" bölümü (EPA types + WA DOH types, curl ile okundu), iç linkler, kaynak satırı; 1472 → 1945 kelime.
 - (28 Ekim 02:09) **Yazı 511 `septic-system-winter-care` genişletildi** (T-0025 kapandı): "What a University of Minnesota septic program adds" bölümü (UMN Onsite Sewage Treatment Program, Sara Heger 2021, curl ile okundu), iç linkler, kaynak satırı; 1265 → ~1650 kelime.
+
+## 2026-10-29 (Septic günü, web turu)
+- **Yazı 693 `septic-tank-baffles-and-effluent-filters` yayınlandı** (Parts & Sizing, odak "septic effluent filter", 1900 kelime). Kaynaklar: WA DOH (Types, Signs of Failure, Caring), Maine 10-144 CMR ch.241, Texas 30 TAC §285.32 — curl ile okundu. Fiyat yok. Görsel medya 698 (Pexels 7031581, temsili).
+- Geri linkler (FAQ öncesi paragraf): 173, 93, 59. Sitemap önbelleği temizlendi.
