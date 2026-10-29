@@ -95,3 +95,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-29 (İstanbul; site saati 28 Eki ~14:15) — kaynak düzeltmesi
 - Yazı 162: "EPA mold guidance and CDC mold resources … avoid identifying organisms by appearance" cümlesi → "EPA's Brief Guide to Mold, Moisture and Your Home centers on finding and fixing the moisture source." (CDC sayfası okunamadığı için atıf kaldırıldı; genel epa.gov/mold ve cdc.gov/mold linkleri gitti). Geri alma: yazı revizyonu.
+
+## 2026-10-30 (İstanbul; site saati 29 Eki 17:13) — yeni yazı
+- Yazı 329 `crawl-space-access-door` oluşturuldu (taslak → yayın), kategori 4 Repair & Foundation, öne çıkan görsel yok (uygun foto bulunamadı), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 318, 172, 85, 269, 143. Geri alma: 329'u taslağa al (silme yok); geri linkleri kaldır.
