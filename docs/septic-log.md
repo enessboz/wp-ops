@@ -108,3 +108,9 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - **Yazı 693 `septic-tank-baffles-and-effluent-filters` yayınlandı** (Parts & Sizing, odak "septic effluent filter", 1900 kelime). Kaynaklar: WA DOH (Types, Signs of Failure, Caring), Maine 10-144 CMR ch.241, Texas 30 TAC §285.32 — curl ile okundu. Fiyat yok. Görsel medya 698 (Pexels 7031581, temsili).
 - Geri linkler (FAQ öncesi paragraf): 173, 93, 59. Sitemap önbelleği temizlendi.
 - (29 Ekim 01:10) Yazı 224 `septic-tank-backup`: /septic-tank-baffles-and-effluent-filters/ geri linki eklendi ("How to Prevent Future Septic Backups" öncesi).
+
+## 2026-10-31 (İstanbul 00:12)
+- CREATE 703 /septic-holding-tank/ (System Types, publish); featured media 707 (Pexels, representative). Rank Math title/desc/focus set.
+- 703: tank size wording → "1,000 gal or 4× design flow, whichever is greater"; records → twice a year/dept schedule; sewer → "connect, abandon within 30 days of connection".
+- 626, 669, 196: FAQ öncesi holding tank paragrafı + link eklendi. 224, 250: eşleşme yok (değişiklik yok).
+- clear_cache posts 703,626,669,196,250.
