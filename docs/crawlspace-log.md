@@ -98,3 +98,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-30 (İstanbul; site saati 29 Eki 17:13) — yeni yazı
 - Yazı 329 `crawl-space-access-door` oluşturuldu (taslak → yayın), kategori 4 Repair & Foundation, öne çıkan görsel yok (uygun foto bulunamadı), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 318, 172, 85, 269, 143. Geri alma: 329'u taslağa al (silme yok); geri linkleri kaldır.
+
+## 2026-10-31 (İstanbul; site saati 30 Eki ~15:10) — fiyat atfı düzeltmesi
+- Yazı 138: "roughly $10–$30 per square foot … according to Basement Calculator" cümlesi kaynakta bulunmadığı için "from about $600 for spots to $10,000+ for widespread growth, according to Basement Calculator's crawl space cleaning cost page" ile değiştirildi; etiket "Spot cleanup to widespread growth:"; Sources'a Palm Build, Home Restoration Costs, Basement Calculator linkleri eklendi. Aracı düzeltme sırasında regex değiştirme dizisi `$6`, `$1` geri başvurusu olarak yorumlandı (geçici bozuk metin), regex'siz düzeltmeyle onarıldı. Geri alma: yazı revizyonu.
