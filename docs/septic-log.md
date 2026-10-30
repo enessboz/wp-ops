@@ -114,3 +114,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - 703: tank size wording → "1,000 gal or 4× design flow, whichever is greater"; records → twice a year/dept schedule; sewer → "connect, abandon within 30 days of connection".
 - 626, 669, 196: FAQ öncesi holding tank paragrafı + link eklendi. 224, 250: eşleşme yok (değişiklik yok).
 - clear_cache posts 703,626,669,196,250.
+
+## 2026-10-31 01:08
+- 224: "Local Rules" öncesi holding tank paragrafı + link. 250: "Sources" öncesi paragraf + link.
