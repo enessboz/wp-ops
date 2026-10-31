@@ -117,3 +117,8 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-31 01:08
 - 224: "Local Rules" öncesi holding tank paragrafı + link. 250: "Sources" öncesi paragraf + link.
+
+## 2026-11-01 (İstanbul 00:08)
+- CREATE 713 /septic-perc-test/ (Parts & Sizing, publish); featured media 717 (Pexels, representative). Rank Math title/desc/focus set. Taslakta 3 ifade düzeltmesi (Harford "staff run" → "arranged through"; Nebraska 5/60 mpi cümlesi).
+- Backlink (FAQ/ilgili başlık öncesi paragraf): 408, 159, 626 (FAQ öncesi); 265 (When to talk to a professional öncesi); 200 (Authoritative sources öncesi).
+- clear_cache posts 713,408,159,626,265,200.
