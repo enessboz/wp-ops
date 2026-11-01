@@ -125,3 +125,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-11-01 02:08
 - 257: Sources and further reading (3 EPA) + uyarı satırı, Related kutusu öncesi. clear_cache 257.
+
+## 2026-11-02 02:09
+- 250: "Frequently asked questions" (4 soru) Sources öncesi eklendi. clear_cache 250.
