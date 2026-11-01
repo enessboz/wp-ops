@@ -101,3 +101,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-10-31 (İstanbul; site saati 30 Eki ~15:10) — fiyat atfı düzeltmesi
 - Yazı 138: "roughly $10–$30 per square foot … according to Basement Calculator" cümlesi kaynakta bulunmadığı için "from about $600 for spots to $10,000+ for widespread growth, according to Basement Calculator's crawl space cleaning cost page" ile değiştirildi; etiket "Spot cleanup to widespread growth:"; Sources'a Palm Build, Home Restoration Costs, Basement Calculator linkleri eklendi. Aracı düzeltme sırasında regex değiştirme dizisi `$6`, `$1` geri başvurusu olarak yorumlandı (geçici bozuk metin), regex'siz düzeltmeyle onarıldı. Geri alma: yazı revizyonu.
+
+## 2026-11-02 (İstanbul; site saati 1 Kas 16:10) — yeni yazı
+- Yazı 340 `crawl-space-hygrometer` oluşturuldu (taslak → yayın), kategori 2 Moisture & Water, medya 341 öne çıkan (Pexels 37637713, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 298, 269, 6, 9, 254; 101'de yeni "Related Guides" bölümü eklendi. Geri alma: 340'ı taslağa al (silme yok); geri linkleri kaldır.
