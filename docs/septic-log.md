@@ -136,3 +136,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-11-03 01:08
 - 214: "Frequently asked questions" (4 soru) Further reading öncesi eklendi. clear_cache 214.
+
+## 2026-11-03 02:09
+- 248: "Frequently asked questions" (4 soru) Sources öncesi eklendi. clear_cache 248.
