@@ -133,3 +133,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - CREATE 725 /septic-permit-process/ (Costs & Inspections, publish); featured media 728 (Pexels, representative). Rank Math title/desc/focus set. Taslakta düzeltmeler: başlık 61→55 kr; "contractor risk" cümlesi kaldırıldı.
 - Backlink (FAQ/ilgili başlık öncesi paragraf): 713, 159, 163 (FAQ öncesi); 265 (When to talk to a professional öncesi).
 - clear_cache posts 725,713,159,265,163.
+
+## 2026-11-03 01:08
+- 214: "Frequently asked questions" (4 soru) Further reading öncesi eklendi. clear_cache 214.
