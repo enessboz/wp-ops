@@ -104,3 +104,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-11-02 (İstanbul; site saati 1 Kas 16:10) — yeni yazı
 - Yazı 340 `crawl-space-hygrometer` oluşturuldu (taslak → yayın), kategori 2 Moisture & Water, medya 341 öne çıkan (Pexels 37637713, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 298, 269, 6, 9, 254; 101'de yeni "Related Guides" bölümü eklendi. Geri alma: 340'ı taslağa al (silme yok); geri linkleri kaldır.
+
+## 2026-11-04 (İstanbul; site saati 3 Kas 16:10) — yeni yazı
+- Yazı 349 `crawl-space-support-posts` oluşturuldu (taslak → yayın), kategori 4 Repair & Foundation, medya 350 öne çıkan (Pexels 40440125, temsili bodrum), Rank Math title/açıklama/odak kelime. Geri linkler: 8, 9, 177, 329 (Related Guides), 155 (metin içi cümle, "What Causes Floors to Sag" bölümü). Geri alma: 349'u taslağa al (silme yok); geri linkleri kaldır.
