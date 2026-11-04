@@ -139,3 +139,8 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-11-03 02:09
 - 248: "Frequently asked questions" (4 soru) Sources öncesi eklendi. clear_cache 248.
+
+## 2026-11-05 (İstanbul 00:09)
+- CREATE 735 /septic-system-design/ (Parts & Sizing, publish); featured media 738 (Pexels, representative). Rank Math title/desc/focus set; meta açıklama 162→157 kr. Taslak düzeltmeleri: tank asgarisi ifadesi, FAQ "base fixture counts".
+- Backlink (FAQ/ilgili başlık öncesi paragraf): 713, 725, 626 (FAQ öncesi); 265 (When to talk to a professional öncesi); 209 (Further reading öncesi).
+- clear_cache posts 735,265,713,725,626,209.
