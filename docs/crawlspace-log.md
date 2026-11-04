@@ -107,3 +107,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-11-04 (İstanbul; site saati 3 Kas 16:10) — yeni yazı
 - Yazı 349 `crawl-space-support-posts` oluşturuldu (taslak → yayın), kategori 4 Repair & Foundation, medya 350 öne çıkan (Pexels 40440125, temsili bodrum), Rank Math title/açıklama/odak kelime. Geri linkler: 8, 9, 177, 329 (Related Guides), 155 (metin içi cümle, "What Causes Floors to Sag" bölümü). Geri alma: 349'u taslağa al (silme yok); geri linkleri kaldır.
+
+## 2026-11-05 (İstanbul; site saati 4 Kas ~16:10) — kaynak düzeltmesi
+- Yazı 182: "emphasizes controlling moisture; it does not support identifying a mold type by appearance." → "says moisture control is the key to mold control and that, in most cases where visible mold growth is present, sampling is unnecessary." (EPA Brief Guide'da dayanağı olan ifade); epa.gov/mold linki Brief Guide URL'sine çevrildi. Geri alma: yazı revizyonu.
