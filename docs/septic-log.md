@@ -144,3 +144,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 - CREATE 735 /septic-system-design/ (Parts & Sizing, publish); featured media 738 (Pexels, representative). Rank Math title/desc/focus set; meta açıklama 162→157 kr. Taslak düzeltmeleri: tank asgarisi ifadesi, FAQ "base fixture counts".
 - Backlink (FAQ/ilgili başlık öncesi paragraf): 713, 725, 626 (FAQ öncesi); 265 (When to talk to a professional öncesi); 209 (Further reading öncesi).
 - clear_cache posts 735,265,713,725,626,209.
+
+## 2026-11-06 00:08
+- 735: öne çıkan görsel değişti (media 738 -> 744, Pexels Max Vakhtbovych; yinelenen görsel düzeltmesi, 626 ile aynıydı). clear_cache 735.
