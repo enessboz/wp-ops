@@ -110,3 +110,6 @@ Her satır: tarih, ne yapıldı, nereye (ID), eski → yeni.
 
 ## 2026-11-05 (İstanbul; site saati 4 Kas ~16:10) — kaynak düzeltmesi
 - Yazı 182: "emphasizes controlling moisture; it does not support identifying a mold type by appearance." → "says moisture control is the key to mold control and that, in most cases where visible mold growth is present, sampling is unnecessary." (EPA Brief Guide'da dayanağı olan ifade); epa.gov/mold linki Brief Guide URL'sine çevrildi. Geri alma: yazı revizyonu.
+
+## 2026-11-06 (İstanbul; site saati 5 Kas 16:10) — yeni yazı
+- Yazı 359 `crawl-space-ductwork` oluşturuldu (taslak → yayın), kategori 6 Products & Equipment, medya 360 öne çıkan (Pexels 11538226, temsili), Rank Math title/açıklama/odak kelime. Geri linkler (Related Guides): 269, 298, 305, 340, 329, 85. Geri alma: 359'u taslağa al (silme yok); geri linkleri kaldır.
